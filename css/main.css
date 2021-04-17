@@ -1,6 +1,7 @@
 body {
   margin: 0;
   height: 100vh;
+  font-family: 'Arial';
 }
 
 .grid-container {
@@ -31,6 +32,37 @@ section.description {
   background-color: gray;
 }
 
+section.description .dashboard-overview {
+  display: block;
+  background-color: white;
+  margin: .5em;
+  padding: .5em;
+  border-radius: .4em;
+}
+
+section.description .instructions {
+  display: block;
+  background-color: white;
+  margin: .5em;
+  padding: .5em;
+  border-radius: .4em;
+}
+
+section.description h2 {
+  font-size: 1rem;
+  display: block;
+}
+
+section.description span {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #006C5B;
+}
+
+section.description p {
+  font-size: 0.7rem;
+}
+
 section.engagement {
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
@@ -50,6 +82,14 @@ header {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: header;
+  background: #006C5B;
+  color: #F8F5F2;
+}
+
+header h1 {
+  font-size: 1.2rem;
+  display: block;
+  width: 20%;
 }
 
 .results {
