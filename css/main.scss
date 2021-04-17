@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.4fr 1.2fr 0.4fr;
+    grid-template-rows: 1.5fr 2fr 3fr 2fr;
+    grid-template-areas:
+        "header header header"
+        "description main main"
+        "description engagement results"
+        "description engagement results";
+        // "footer footer candy";
+    height: 100vh;
+    margin: 0em 2em;
+}
+
+main {
+    grid-area: main;
+    background-color: yellow;
+}
+
+section.description {
+    grid-area: description; 
+    background-color: gray;
+}
+
+section.engagement {
+    grid-area: engagement;
+    background: black;
+    color: white;
+}
+
+section.ddpp {
+    grid-area: footer;
+    background: red;
+}
+
+header {
+    grid-area: header;
+    
+}
+
+.results {
+    grid-area: results;
+    background: pink;
+}

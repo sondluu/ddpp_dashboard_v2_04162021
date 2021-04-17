@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.4fr 1.2fr 0.4fr;
+      grid-template-columns: 0.4fr 1.2fr 0.4fr;
+  -ms-grid-rows: 1.5fr 2fr 3fr 2fr;
+      grid-template-rows: 1.5fr 2fr 3fr 2fr;
+      grid-template-areas: "header header header" "description main main" "description engagement results" "description engagement results";
+  height: 100vh;
+  margin: 0em 2em;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+  background-color: yellow;
+}
+
+section.description {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
+  grid-area: description;
+  background-color: gray;
+}
+
+section.engagement {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 2;
+  grid-area: engagement;
+  background: black;
+  color: white;
+}
+
+section.ddpp {
+  grid-area: footer;
+  background: red;
+}
+
+header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.results {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  grid-area: results;
+  background: pink;
+}
+/*# sourceMappingURL=main.css.map */
