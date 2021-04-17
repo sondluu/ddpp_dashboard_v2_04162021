@@ -10,44 +10,94 @@
 <body>
 
     <div class="grid-container">
+
+        <div class="background"></div>
         <header>
             <div class="title">
                 <h1>Noom Digital Diabetes Prevention Activity Dashboard</h1>
-            </div>
+                
+                
 
-            <div class="patient-name">Jane</div>
+                <div class="general-info">
+
+                    <div id="patient-name">Jane</div>
+                    
+                    <ul class="ddpp-info">
+                        <li><span>dDPP Enrollment Date:</span> 01/01/9999</li>
+                        <li><span>Noom Prgram Enrollment Date:</span> 01/01/000</li>
+                    </ul>
+                </div>
+
+
+            </div>
         
         </header>
 
         <section class="description">
-            <h2>Dashboard Overview</h2>
+            
             <div class="dashboard-overview">
-                <p><span>The Noom DDPP Activity Dashboard:</span> An overview of patient’s digital engagement in health behavior change activities via Noom app while using activity tracking devices, over 52-week program. Patient self-reported data includes: Physical Activities (step counts + exercise minutes), Digital Learning (online articles), Weigh-ins, and In-app Communication (w/ coach and support group) on a weekly basis. 
+                <h2>Dashboard Overview</h2>
+                <p><span>Noom DDPP Activity Dashboard:</span> summarizes patient’s engagement in diabetes prevention health behavior change via Noom app while using activity tracking devices, over 52-weeks. Weekly self-logged data covers: Physical Activities, Digital Learning, Weigh-ins & In-app Communication (w/ coach & support group). 
                 </p>
-                <p><span>Noom:</span> Health behavior change mobile application based on the CDC’s DPP curriculum that allows users to log their meals, physical activity minutes, weight, daily articles that cover health behavior topics while connecting them with a support group, and a behavior -change coach</p> 
+                <p><span>Noom:</span> Health behavior change mobile application based on the CDC’s DPP curriculum that allows users to log their meals, physical activity minutes, weight, daily health articles while connecting them with a support group, and a behavior-change coach</p> 
                 </p>
             </div>
 
             <div class="instructions">
+                <h2>Navigate Dashboard</h2>
                 <p><span>Patient’s Self-logged Noom Activity Data:</span> Patient’s self-reported activity data and health indicators as part of dDPP program, including those on Noom app</p>
+                <p><span>Icon:</span> Click-on icon for historical data</p>
+                <p><span>Weekly Engagement Progress:</span> Weekly High/Low engagement in 4 areas of Noom activities over 52 weeks</p>
+                <p><span>Current Week’s Engagement Level:</span> combined patient’s engagement in one overall result for the current week</p>
             </div>
         </section>
 
 
+        
         <main>
+
+            <div class="main-container">
             <h2>Patient’s Self-logged Noom Activity Data</h2>
+
+            <table id="noom_data">
+                <tr>
+                  <th>Avg Weekly Cal Intake Budget</th>
+                  <th>Avg Weekly Step Count</th>
+                  <th>Avg Weekly Exercise Time (min)</th>
+                  <th>Self-logged A1c</th>
+                  <th>Self-logged Weight</th>
+                  <th>30-day Weight ▲</th>
+                </tr>
+                <tr>
+                  <td>
+                  </td>
+                  <td>15478<p>last logged </p></td>
+                  <td>345<p>last logged </p></td>
+                  <td>5.9<p>last logged </p></td>
+                  <td>245<p>(08/01/2020)</p></td>
+                  <td>-5</p></td>
+                  
+                </tr>
+              </table>
+
+            </div>
+            
         </main>
+
+
 
         <section class="engagement">
             <h2>Weekly Engagement Progress</h2>
         </section>
       
-        <!-- <section class="ddpp">ddpp</section> -->
-  
+        <!-- <section class="ddpp">ddpp</section>
+   -->
         <section class="results">
             <h2>Current Week's Engagement Level</h2>
         </section>
-        <!-- <div class="results"></div> -->
+        <div class="results"></div>
+
+    
 
     </div>
     

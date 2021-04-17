@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     margin: 0;
     height: 100vh;
-    font-family: 'Arial';
+    font-family: 'Roboto', sans-serif;;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: 0.4fr 1.2fr 0.4fr;
-    grid-template-rows: 1.5fr 2fr 3fr 2fr;
+    grid-template-columns: 0.3fr 1.2fr 0.4fr;
+    grid-template-rows: 0.1fr 2fr 3fr 2fr;
     grid-template-areas:
         "header header header"
         "description main main"
@@ -15,25 +16,86 @@ body {
         "description engagement results";
         // "footer footer candy";
     height: 100vh;
-    margin: 0em 2em;
+    margin: 0;
 }
+
+.background {
+    width: 80%
+}
+
+
 
 
 
 main {
     grid-area: main;
-    background-color: yellow;
+    background-color: #006c5b;
+
+    .main-container {
+        display: block;
+        display: block;
+        background-color: white;
+        margin: .5em;
+        padding: .5em;
+        border-radius: .4em .4em 0 0;
+    }
+
+    h2 {
+        font-size: 1rem;
+        padding: 0 0 0 1rem;
+    }
+
+    #noom_data {
+        border-collapse: collapse;
+        width: 90%;
+        border: 2px solid;
+        // verticle-align: top;
+        border-radius: 0.5em;
+        border-collapse: collapse;
+        overflow: hidden;
+        background: #006C5B;
+        margin: 0 1rem 1rem 1rem;
+      }
+      
+      #noom_data td {
+        // width: 20rem;
+        // height: 1rem;
+      /*   border: 2px solid #f4f4f4; */
+        text-align: center;
+        font-size: .8rem;
+        background: white;
+        color: #ed9b33; 
+        font-weight: bold;
+        padding: .5rem;
+
+        p {
+            font-size: 0.6rem;
+            color: #686868;
+        }
+      }
+      
+      #noom_data th {
+        background: #006C5B;
+      /*   border-color: #f4f4f4; */
+        width: 20rem;
+        height: 2rem;
+      /*   border: 2px solid #f4f4f4; */
+        text-align: center;
+        font-size: 0.8rem;
+        padding: .5rem;
+        color: #F8f5f2;
+      }
 }
 
 section.description {
     grid-area: description; 
-    background-color: gray;
+    background-color: #006C5B;
 
     .dashboard-overview {
         display: block;
         background-color: white;
         margin: .5em;
-        padding: .5em;
+        padding: .3em .5em 0 .5em ;
         border-radius: .4em;
     }
 
@@ -48,7 +110,7 @@ section.description {
     h2 {
         font-size: 1rem;
         display: block;
-
+        padding: 0 0 0 .5rem;
     }
 
     span {
@@ -58,7 +120,8 @@ section.description {
     }
 
     p {
-        font-size: 0.7rem;;
+        font-size: 0.7rem;
+        padding: .3em .5em .2em .5em;
     }
 }
 
@@ -68,6 +131,11 @@ section.engagement {
     grid-area: engagement;
     background: black;
     color: white;
+
+    h2 {
+        font-size: 1rem;
+        padding: 0.5em;
+    }
 }
 
 section.ddpp {
@@ -79,16 +147,80 @@ header {
     grid-area: header;
     background: #006C5B;
     color: #F8F5F2;
+    // display: grid;
+    // position: relative;
+    
+
+    .title {
+        display: flex;
+        // grid-template-columns: 150px auto; //150px for the title "Digital..." and the rest is auto
+        // justify-content: unset;
+    }
+
+    .general-info{  //this part contains patient name and general info
+        // display: flex;
+        font-size: 0.6rem;
+        justify-content: space-between;
+        // position: absolute;
+        height: auto; 
+        // width: 100%;
+        padding-top: 3em;
+        padding-left: 4em;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: .5rem .3rem 0 0;
+
+            li {
+                padding: 0 5rem 0 0;
+                font-size: 1.2em;
+            }
+
+            span {
+                font-weight: bold;
+                font-size: .7rem;
+            }
+        }
+    }
 
     h1 {
         font-size: 1.2rem;
         display: block;
-        width: 20%;
+        width: 16%;
+        position: relative;
+        padding: .5em .5em 0 .5em;
     }
-    
+
+    #patient-name {
+        font-size: 2rem;
+        // padding-left: .5em;
+   
+        font-weight: bold;
+        // display: block;
+        // position: absolute;
+        // top: 1em;
+        // left: 5em;
+    }
 }
+
+
+// .patientname {
+//     font-size: 30rem;
+//     display: block;
+//     position: relative;
+// }
+
+
+
+
 
 .results {
     grid-area: results;
     background: pink;
+
+    h2 {
+        font-size: 1rem;
+        padding: 0.5em
+    }
 }
