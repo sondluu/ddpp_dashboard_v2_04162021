@@ -37,18 +37,20 @@
             
             <div class="dashboard-overview">
                 <h2>Dashboard Overview</h2>
-                <p><span>Noom DDPP Activity Dashboard:</span> summarizes patient’s engagement in diabetes prevention health behavior change via Noom app while using activity tracking devices, over 52-weeks. Weekly self-logged data covers: Physical Activities, Digital Learning, Weigh-ins & In-app Communication (w/ coach & support group). 
+                <p><span>Noom dDPP Activity Dashboard:</span> An overview of patient weekly engagement in health behavior change activities via the digital diabetes prevention (Noom) Noom app and using activity trackers. Patient self-reported data includes Physical Activities, Digital Learning, Weigh-ins & In-app Communication (with personal coach & support group). 
                 </p>
-                <p><span>Noom:</span> Health behavior change mobile application based on the CDC’s DPP curriculum that allows users to log their meals, physical activity minutes, weight, daily health articles while connecting them with a support group, and a behavior-change coach</p> 
+                <p><span>Noom:</span> a diabetes prevention & weight loss behavior mobile application based on the CDC’s evidence-based diabetes prevention program (DPP) curriculum. This 52-week program allows users to log their meals, physical activities, weight, and provides daily articles covering heath behavior topics while connecting them with a support group, and a behavior-change coach</p> 
                 </p>
+                <p id="note1">Notes: this dashboard is part of an IRB-approved research study. Not all of your patients will have an active dashboard in the EHR</p>
             </div>
 
             <div class="instructions">
-                <h2>Navigate Dashboard</h2>
-                <p><span>Patient’s Self-logged Noom Activity Data:</span> Patient’s self-reported activity data and health indicators as part of dDPP program, including those on Noom app</p>
+                <h2>How to Navigate Dashboard</h2>
+                <p id="note2">Hover over the text in the following definitions to see their associated dashboard sections.</p>
+                <p><span>Patient’s Self-logged Noom Activity Data:</span> patient’s self-reported activity data & health indicators as part of dDPP program, including those on Noom app</p>
                 <p><span>Icon:</span> Click-on icon for historical data</p>
-                <p><span>Weekly Engagement Progress:</span> Weekly High/Low engagement in 4 areas of Noom activities over 52 weeks</p>
-                <p><span>Current Week’s Engagement Level:</span> combined patient’s engagement in one overall result for the current week</p>
+                <p><span>Weekly Engagement Progress:</span> weekly High/Low engagement in 4 areas of Noom activities over 52 weeks</p>
+                <p><span>Current Week’s Engagement Level:</span> patient’s overall engagement score for the current week.</p>
             </div>
         </section>
 
@@ -264,7 +266,7 @@
 
                 <div class="digital-learning">
                     <h5>DIGITAL LEARNING</h5>
-                    <p>number of health behavior articles read through Noom app</p>
+                    <p>number of health behavior articles read through the Noom app</p>
 
                     <table id="digital-learning-score">
                         <tr>
@@ -610,7 +612,7 @@
 
                 <div class="communication">
                     <h5>COACH & PEER GROUP COMMUNCATION</h5>
-                    <p>number of in-app messages exchanged between patient and coach and peer support group</p>
+                    <p>number of in-app messages exchanged between patient and coach or peer support group</p>
 
                     <table id="communication-score">
                         <tr>
@@ -786,9 +788,54 @@
         <!-- <section class="ddpp">ddpp</section>
    -->
         <section class="results">
+
+          <div class="results-container">
             <h2>Current Week's Engagement Level</h2>
+
+            <div class="results-info">
+
+              <table id="week_number">
+                <tr>
+                  <th>Current Week</th>
+                </tr>
+                <tr>
+                  <td>14</td>
+                </tr>
+              </table>
+
+              <ul class="ddpp-info">
+                <li><span></span>Physical Activities</li>
+                <li><span></span>Weigh-ins</li>
+              </ul>
+
+              <ul class="ddpp-info">
+                <li><span></span>Digital Learning</li>
+                <li><span></span>Comunication</li>
+              </ul>
+
+
+    
+
+                <table id="overall_engagement">
+                  <tr>
+                    <th>Engagement Level</th>
+                  </tr>
+                  <tr>
+                    <td>Low</td>
+                  </tr>
+                </table>
+
+
+              <p><span id="high">HIGH:</span> score received if self-logged data meets or exeeds set goal for the week</p>
+              <p><span id="low">LOW:</span> score received if self-logged data does not meet/exceed set goal for the week</p>
+              <p><span id="engage_def">Engagement Level: </span> patient's overall engagement score for the current week (calculated as achieving High engagement in 3 or more individual areas)</p>
+              
+
+
+
+            </div>
+          </div>
         </section>
-        <div class="results"></div>
 
     
 
