@@ -34,7 +34,7 @@ main .main-container {
   display: block;
   background-color: white;
   margin: 0em .5em 0em .5em;
-  padding: .3em .1em .2em .1em;
+  padding: .3em .1em .02em .1em;
   border-radius: .4em .4em .4em .4em;
 }
 
@@ -70,6 +70,19 @@ main .main-container #noom_data td p {
   color: #686868;
 }
 
+main .main-container #noom_data td button {
+  background-color: #ed9b33;
+  border: none;
+  width: 70%;
+  color: #F8f5f2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: .5em 0;
+  border-radius: .5em;
+  font-size: .6rem;
+  cursor: pointer;
+}
+
 main #noom_data th {
   background: #006C5B;
   /*   border-color: #f4f4f4; */
@@ -77,8 +90,8 @@ main #noom_data th {
   height: 2rem;
   /*   border: 2px solid #f4f4f4; */
   text-align: center;
-  font-size: 0.9rem;
-  padding: .7rem;
+  font-size: 0.8rem;
+  padding: .6rem;
   color: #F8f5f2;
 }
 
@@ -102,7 +115,7 @@ section.description .instructions {
   display: block;
   background-color: #f8f5f2;
   margin: .5em;
-  padding: .3em .8em 0.5em .8em;
+  padding: .3em .8em 0.4em .8em;
   border-radius: .4em;
 }
 
@@ -130,7 +143,7 @@ section.description p {
 section.description #note1 {
   color: #e91111;
   font-size: .6rem;
-  padding: 0 0 2em 0;
+  padding: 0 0 1.5em 0;
 }
 
 section.description #note2 {
@@ -150,7 +163,7 @@ section.engagement .engagement-container {
   display: block;
   background-color: white;
   margin: .5em .5em 0em .5em;
-  padding: 0em .5em 1em .5em;
+  padding: 0em .5em .5em .5em;
   border-radius: .4em;
   border-color: none;
 }
@@ -394,11 +407,11 @@ header .general-info ul {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  padding: .3rem .3rem 0 0;
+  padding: .3rem .1rem 0 0;
 }
 
 header .general-info ul li {
-  padding: 0 5rem 0 0;
+  padding: 0 2rem 0 0;
   font-size: 1.2em;
 }
 
@@ -424,9 +437,9 @@ header .guide {
   display: block;
   background-color: #f8f5f2;
   margin: 1em 3em 1em 1em;
-  padding: .5em 1.5em 0.5em 1.5em;
+  padding: .2em 1.5em 0em 1.5em;
   border-radius: .4em;
-  width: 50%;
+  width: 40%;
 }
 
 header .guide p {
@@ -448,7 +461,7 @@ header .guide p {
   display: block;
   background-color: white;
   margin: .5em .5em 0em .5em;
-  padding: 0em .5em 1em .5em;
+  padding: 0em .5em .7em .5em;
   border-radius: .4em;
   border-color: none;
 }
