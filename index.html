@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="/script.js" defer></script>
 </head>
 <body>
 
@@ -26,6 +27,10 @@
                         <li><span>dDPP Enrollment Date:</span> 01/01/9999</li>
                         <li><span>Noom Prgram Enrollment Date:</span> 01/01/000</li>
                     </ul>
+                </div>
+
+                <div class="guide">
+                  <p>Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.</p>
                 </div>
 
 
@@ -63,7 +68,7 @@
 
             <table id="noom_data">
                 <tr>
-                  <th>Avg Weekly Cal Intake Budget</th>
+                  <th>Avg Weekly Calorie Intake Budget</th>
                   <th>Avg Weekly Step Count</th>
                   <th>Avg Weekly Exercise Time (min)</th>
                   <th>Self-logged A1c</th>
@@ -71,13 +76,12 @@
                   <th>30-day Weight ▲</th>
                 </tr>
                 <tr>
-                  <td>
-                  </td>
-                  <td>15478<p>last logged </p></td>
-                  <td>345<p>last logged </p></td>
-                  <td>5.9<p>last logged </p></td>
+                  <td>5879<p>last logged</p></td>
+                  <td>15478<p>last logged</p></td>
+                  <td>345<p>last logged</p></td>
+                  <td>5.9<p>last logged</p></td>
                   <td>245<p>(08/01/2020)</p></td>
-                  <td>-5</p></td>
+                  <td>-5<p>lbs</p></td>
                   
                 </tr>
               </table>
@@ -92,119 +96,174 @@
             <div class="engagement-container">
                 <h2>Weekly Engagement Progress</h2>
                 <div class="physical-activity">
-                    <h5>PHYSICAL ACTIVITIES</h5>
-                    <p>combines step counts logged via activity tracking device & self-reported exercise minutes</p>
+                    <h5><span>PHYSICAL ACTIVITIES</span> -- combines step counts logged via activity tracking device & self-reported exercise minutes</h5>
 
-                    <table id="physical-activity-score">
-                        <tr>
+                    <table id="phys">
+                        <tr id="phys_score">
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>{p3}</td>
+                            <td>{p4}</td>
+                            <td>{p5}</td>
+                            <td>{p6}</td>
+                            <td>{p7}</td>
+                            <td>{p8}</td>
+                            <td>{p9}</td>
+                            <td>{p10}</td>
+                            <td>{p11}</td>
+                            <td>{p12}</td>
+                            <td>{p13}</td>
+                            <td>{p14}</td>
+                            <td>{p15}</td>
+                            <td>{p16}</td>
+                            <td>{p17}</td>
+                            <td>{p18}</td>
+                            <td>{p19}</td>
+                            <td>{p20}</td>
+                            <td>{p21}</td>
+                            <td>{p22}</td>
+                            <td>{p23}</td>
+                            <td>{p24}</td>
+                            <td>{p25}</td>
+                            <td>{p26}</td>
+                            <td>{p27}</td>
+                            <td>{p28}</td>
+                            <td>{p29}</td>
+                            <td>{p30}</td>
+                            <td>{p31}</td>
+                            <td>{p32}</td>
+                            <td>{p33}</td>
+                            <td>{p34}</td>
+                            <td>{p35}</td>
+                            <td>{p36}</td>
+                            <td>{p37}</td>
+                            <td>{p38}</td>
+                            <td>{p39}</td>
+                            <td>{p40}</td>
+                            <td>{p41}</td>
+                            <td>{p42}</td>
+                            <td>{p43}</td>
+                            <td>{p44}</td>
+                            <td>{p45}</td>
+                            <td>{p46}</td>
+                            <td>{p47}</td>
+                            <td>{p48}</td>
+                            <td>{p49}</td>
+                            <td>{p50}</td>
+                            <td>{p51}</td>
+                            <td>{p52}</td>
+                            <td></td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         <tr>
                           <th>Week</th>
@@ -260,124 +319,180 @@
                           <th>50</th>
                           <th>51</th>
                           <th>52</th>
+                          <th></th>
                         </tr>
                       </table>
                 </div>
 
                 <div class="digital-learning">
-                    <h5>DIGITAL LEARNING</h5>
-                    <p>number of health behavior articles read through the Noom app</p>
+                    <h5><span>DIGITAL LEARNING</span> -- number of health behavior articles read through the Noom app</h5>
 
-                    <table id="digital-learning-score">
-                        <tr>
+                    <table id="learn">
+                        <tr id="learn_score">
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>{l2}</td>
+                            <td>{l3}</td>
+                            <td>{l4}</td>
+                            <td>{l5}</td>
+                            <td>{l6}</td>
+                            <td>{l7}</td>
+                            <td>{l8}</td>
+                            <td>{l9}</td>
+                            <td>{l10}</td>
+                            <td>{l11}</td>
+                            <td>{l12}</td>
+                            <td>{l13}</td>
+                            <td>{l14}</td>
+                            <td>{l15}</td>
+                            <td>{l16}</td>
+                            <td>{l17}</td>
+                            <td>{l18}</td>
+                            <td>{l20}</td>
+                            <td>{l21}</td>
+                            <td>{l22}</td>
+                            <td>{l23}</td>
+                            <td>{l24}</td>
+                            <td>{l25}</td>
+                            <td>{l26}</td>
+                            <td>{l27}</td>
+                            <td>{l28}</td>
+                            <td>{l29}</td>
+                            <td>{l30}</td>
+                            <td>{l31}</td>
+                            <td>{l32}</td>
+                            <td>{l33}</td>
+                            <td>{l34}</td>
+                            <td>{l35}</td>
+                            <td>{l36}</td>
+                            <td>{l37}</td>
+                            <td>{l38}</td>
+                            <td>{l39}</td>
+                            <td>{l40}</td>
+                            <td>{l41}</td>
+                            <td>{l42}</td>
+                            <td>{l43}</td>
+                            <td>{l44}</td>
+                            <td>{l45}</td>
+                            <td>{l46}</td>
+                            <td>{l47}</td>
+                            <td>{l48}</td>
+                            <td>{l49}</td>
+                            <td>{l50}</td>
+                            <td>{l51}</td>
+                            <td>{l52}</td>
+                            <td></td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         <tr>
                           <th>Week</th>
@@ -433,124 +548,180 @@
                           <th>50</th>
                           <th>51</th>
                           <th>52</th>
+                          <th></th>
                         </tr>
                       </table>
                 </div>
 
                 <div class="weigh-in">
-                    <h5>WEIGH-INS</h5>
-                    <p>number of times weight is logged</p>
+                    <h5><span>WEIGH-INS</span> -- number of times weight is logged</h5>
 
-                    <table id="weighin-score">
-                        <tr>
+                    <table id="weigh">
+                        <tr id="weighin_score">
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>{w3}</td>
+                            <td>{w4}</td>
+                            <td>{w5}</td>
+                            <td>{w6}</td>
+                            <td>{w7}</td>
+                            <td>{w8}</td>
+                            <td>{w9}</td>
+                            <td>{w10}</td>
+                            <td>{w11}</td>
+                            <td>{w12}</td>
+                            <td>{w13}</td>
+                            <td>{w14}</td>
+                            <td>{w15}</td>
+                            <td>{w16}</td>
+                            <td>{w17}</td>
+                            <td>{w18}</td>
+                            <td>{w19}</td>
+                            <td>{w20}</td>
+                            <td>{w21}</td>
+                            <td>{w22}</td>
+                            <td>{w23}</td>
+                            <td>{w24}</td>
+                            <td>{w25}</td>
+                            <td>{w26}</td>
+                            <td>{w27}</td>
+                            <td>{w28}</td>
+                            <td>{w29}</td>
+                            <td>{w30}</td>
+                            <td>{w31}</td>
+                            <td>{w32}</td>
+                            <td>{w33}</td>
+                            <td>{w34}</td>
+                            <td>{w35}</td>
+                            <td>{w36}</td>
+                            <td>{w37}</td>
+                            <td>{w38}</td>
+                            <td>{w39}</td>
+                            <td>{w40}</td>
+                            <td>{w41}</td>
+                            <td>{w42}</td>
+                            <td>{w43}</td>
+                            <td>{w44}</td>
+                            <td>{w45}</td>
+                            <td>{w46}</td>
+                            <td>{w47}</td>
+                            <td>{w48}</td>
+                            <td>{w49}</td>
+                            <td>{w50}</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td></td>
                           </tr>
                           <tr>
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         <tr>
                           <th>Week</th>
@@ -606,124 +777,180 @@
                           <th>50</th>
                           <th>51</th>
                           <th>52</th>
+                          <th></th>
                         </tr>
                       </table>
                 </div>
 
                 <div class="communication">
-                    <h5>COACH & PEER GROUP COMMUNCATION</h5>
-                    <p>number of in-app messages exchanged between patient and coach or peer support group</p>
+                    <h5><span>COACH & PEER GROUP COMMUNCATION</span>number of in-app messages exchanged between patient and coach or peer support group</h5>
 
-                    <table id="communication-score">
-                        <tr>
+                    <table id="comm">
+                        <tr id="comm_score">
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>H</td>
+                            <td>L</td>
+                            <td>L</td>
+                            <td></td> 
                           </tr>
                           <tr>
                             <td></td>
-                            <td id ="w1">H</td>
-                            <td id ="w2">L</td>
-                            <td id ="w3">H</td>
-                            <td id ="w4">H</td>
-                            <td id ="w5">H</td>
-                            <td id ="w6">L</td>
-                            <td id ="w7">H</td>
-                            <td id ="w8">L</td>
-                            <td id ="w9">L</td>
-                            <td id ="w10">H</td>
-                            <td id ="w11">H</td>
-                            <td id ="w12">H</td>
-                            <td id ="w13">H</td>
-                            <td id ="w14">H</td>
-                            <td id ="w15"></td>
-                            <td id ="w16"></td>
-                            <td id ="w17"></td>
-                            <td id ="w18"></td>
-                            <td id ="w19"></td>
-                            <td id ="w20">{w20}</td>
-                            <td id ="w21">{w21}</td>
-                            <td id ="w22">{w22}</td>
-                            <td id ="w23">{w23}</td>
-                            <td id ="w24">{w24}</td>
-                            <td id ="w25">{w25}</td>
-                            <td id ="w26">{w26}</td>
-                            <td id ="w27">{w27}</td>
-                            <td id ="w28">{w28}</td>
-                            <td id ="w29">{w29}</td>
-                            <td id ="w30">{w30}</td>
-                            <td id ="w31">{w31}</td>
-                            <td id ="w32">{w32}</td>
-                            <td id ="w33">{w33}</td>
-                            <td id ="w34">{w34}</td>
-                            <td id ="w35">{w35}</td>
-                            <td id ="w36">{w36}</td>
-                            <td id ="w37">{w37}</td>
-                            <td id ="w38">{w38}</td>
-                            <td id ="w39">{w39}</td>
-                            <td id ="w40">{w40}</td>
-                            <td id ="w41">{w41}</td>
-                            <td id ="w42">{w42}</td>
-                            <td id ="w43">{w43}</td>
-                            <td id ="w44">{w44}</td>
-                            <td id ="w45">{w45}</td>
-                            <td id ="w46">{w46}</td>
-                            <td id ="w47">{w47}</td>
-                            <td id ="w48">{w48}</td>
-                            <td id ="w49">{w49}</td>
-                            <td id ="w50">{w50}</td>
-                            <td id ="w51">{w51}</td>
-                            <td id ="w52">{w52}</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
                           </tr>
                         <tr>
                           <th>Week</th>
@@ -779,6 +1006,7 @@
                           <th>50</th>
                           <th>51</th>
                           <th>52</th>
+                          <th></th>
                         </tr>
                       </table>
                 </div>
@@ -828,7 +1056,7 @@
 
               <p><span id="high">HIGH:</span> score received if self-logged data meets or exeeds set goal for the week</p>
               <p><span id="low">LOW:</span> score received if self-logged data does not meet/exceed set goal for the week</p>
-              <p><span id="engage_def">Engagement Level: </span> patient's overall engagement score for the current week (calculated as achieving High engagement in 3 or more individual areas)</p>
+              <p><span id="engage_def">Engagement Level: </span> overall engagement score for the current week (calculated as achieving High engagement in 3 or more individual areas)</p>
               
 
 
@@ -837,9 +1065,16 @@
           </div>
         </section>
 
+
+  
+
     
 
+
     </div>
-    
+
+
+
+  
 </body>
 </html>

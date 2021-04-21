@@ -34,7 +34,7 @@ main .main-container {
   display: block;
   background-color: white;
   margin: 0em .5em 0em .5em;
-  padding: .3em .5em .2em .5em;
+  padding: .3em .1em .2em .1em;
   border-radius: .4em .4em .4em .4em;
 }
 
@@ -46,7 +46,7 @@ main .main-container h2 {
 
 main .main-container #noom_data {
   border-collapse: collapse;
-  width: 90%;
+  width: 97.5%;
   border: 2px solid;
   border-radius: 0.5em;
   border-collapse: collapse;
@@ -58,7 +58,7 @@ main .main-container #noom_data {
 main .main-container #noom_data td {
   /*   border: 2px solid #f4f4f4; */
   text-align: center;
-  font-size: .7rem;
+  font-size: .9rem;
   background: white;
   color: #ed9b33;
   font-weight: bold;
@@ -66,7 +66,7 @@ main .main-container #noom_data td {
 }
 
 main .main-container #noom_data td p {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   color: #686868;
 }
 
@@ -77,8 +77,8 @@ main #noom_data th {
   height: 2rem;
   /*   border: 2px solid #f4f4f4; */
   text-align: center;
-  font-size: 0.7rem;
-  padding: 0rem;
+  font-size: 0.9rem;
+  padding: .7rem;
   color: #F8f5f2;
 }
 
@@ -92,7 +92,7 @@ section.description {
 
 section.description .dashboard-overview {
   display: block;
-  background-color: white;
+  background-color: #f8f5f2;
   margin: 0em .5em 0em .5em;
   padding: .3em .8em 0 .8em;
   border-radius: .4em;
@@ -100,9 +100,9 @@ section.description .dashboard-overview {
 
 section.description .instructions {
   display: block;
-  background-color: white;
+  background-color: #f8f5f2;
   margin: .5em;
-  padding: .3em .8em 0.1em .8em;
+  padding: .3em .8em 0.5em .8em;
   border-radius: .4em;
 }
 
@@ -130,7 +130,7 @@ section.description p {
 section.description #note1 {
   color: #e91111;
   font-size: .6rem;
-  padding: 0 0 1em 0;
+  padding: 0 0 2em 0;
 }
 
 section.description #note2 {
@@ -149,14 +149,14 @@ section.engagement {
 section.engagement .engagement-container {
   display: block;
   background-color: white;
-  margin: -1em .5em 0em .5em;
+  margin: .5em .5em 0em .5em;
   padding: 0em .5em 1em .5em;
   border-radius: .4em;
   border-color: none;
 }
 
 section.engagement .engagement-container h2 {
-  color: #006C5B;
+  color: #006c5b;
   font-size: 1rem;
   padding: 1em 0.5em 0 0.5em;
   margin-top: 0.2em;
@@ -169,10 +169,17 @@ section.engagement .engagement-container p {
 }
 
 section.engagement .engagement-container h5 {
-  font-size: .7rem;
-  color: #006C5B;
+  font-size: .6rem;
+  color: #686868;
   padding: 0;
   margin: 0;
+}
+
+section.engagement .engagement-container h5 span {
+  color: #006C5B;
+  font-size: .7rem;
+  padding: 1em 0.5em 0 0;
+  margin-top: 0.2em;
 }
 
 section.engagement .engagement-container .physical-activity {
@@ -185,32 +192,36 @@ section.engagement .engagement-container .physical-activity {
   font-weight: bold;
 }
 
-section.engagement .engagement-container .physical-activity #physical-activity-score {
+section.engagement .engagement-container .physical-activity #phys {
   border-collapse: collapse;
   width: 100%;
   border: 0px solid #ddd;
   margin-bottom: 0;
   color: #686868;
+  margin-top: .5em;
 }
 
-section.engagement .engagement-container .physical-activity #physical-activity-score th {
+section.engagement .engagement-container .physical-activity #phys th {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
-  font-size: .3rem;
+  font-size: .45rem;
 }
 
-section.engagement .engagement-container .physical-activity #physical-activity-score td {
+section.engagement .engagement-container .physical-activity #phys td {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
 }
 
-section.engagement .engagement-container .physical-activity #physical-activity-score td {
+section.engagement .engagement-container .physical-activity #phys td {
   font-size: .5rem;
   text-align: center;
+}
+
+section.engagement .engagement-container .physical-activity #phys_score {
   display: none;
 }
 
@@ -225,32 +236,36 @@ section.engagement .digital-learning {
   font-weight: bold;
 }
 
-section.engagement .digital-learning #digital-learning-score {
+section.engagement .digital-learning #learn {
   border-collapse: collapse;
   width: 100%;
   border: 0px solid #ddd;
   margin-bottom: 0;
   color: #686868;
+  margin-top: .5em;
 }
 
-section.engagement .digital-learning #digital-learning-score th {
+section.engagement .digital-learning #learn th {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
-  font-size: .3rem;
+  font-size: .45rem;
 }
 
-section.engagement .digital-learning #digital-learning-score td {
+section.engagement .digital-learning #learn td {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
 }
 
-section.engagement .digital-learning #digital-learning-score td {
+section.engagement .digital-learning #learn td {
   font-size: .5rem;
   text-align: center;
+}
+
+section.engagement .digital-learning #learn_score {
   display: none;
 }
 
@@ -265,31 +280,36 @@ section.engagement .weigh-in {
   font-weight: bold;
 }
 
-section.engagement .weigh-in #weighin-score {
+section.engagement .weigh-in #weigh {
   border-collapse: collapse;
   width: 100%;
   border: 0px solid #ddd;
   margin-bottom: 0;
   color: #686868;
+  margin-top: .5em;
 }
 
-section.engagement .weigh-in #weighin-score th {
+section.engagement .weigh-in #weigh th {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
-  font-size: .3rem;
+  font-size: .45rem;
 }
 
-section.engagement .weigh-in #weighin-score td {
+section.engagement .weigh-in #weigh td {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
 }
 
-section.engagement .weigh-in #weighin-score td {
+section.engagement .weigh-in #weigh td {
   font-size: .5rem;
+  text-align: center;
+}
+
+section.engagement .weigh-in #weighin_score {
   text-align: center;
   display: none;
 }
@@ -305,31 +325,36 @@ section.engagement .communication {
   font-weight: bold;
 }
 
-section.engagement .communication #communication-score {
+section.engagement .communication #comm {
   border-collapse: collapse;
   width: 100%;
   border: 0px solid #ddd;
   margin-bottom: 0;
   color: #686868;
+  margin-top: .5em;
 }
 
-section.engagement .communication #communication-score th {
+section.engagement .communication #comm th {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
-  font-size: .3rem;
+  font-size: .45rem;
 }
 
-section.engagement .communication #communication-score td {
+section.engagement .communication #comm td {
   width: 10em;
   height: .5em;
   border: px solid #ccc;
   text-align: top;
 }
 
-section.engagement .communication #communication-score td {
+section.engagement .communication #comm td {
   font-size: .5rem;
+  text-align: center;
+}
+
+section.engagement .communication #comm_score {
   text-align: center;
   display: none;
 }
@@ -395,6 +420,22 @@ header #patient-name {
   font-weight: bold;
 }
 
+header .guide {
+  display: block;
+  background-color: #f8f5f2;
+  margin: 1em 3em 1em 1em;
+  padding: .5em 1.5em 0.5em 1.5em;
+  border-radius: .4em;
+  width: 50%;
+}
+
+header .guide p {
+  color: #006c5b;
+  font-size: .8rem;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
 .results {
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
@@ -406,7 +447,7 @@ header #patient-name {
 .results .results-container {
   display: block;
   background-color: white;
-  margin: -1em .5em 0em .5em;
+  margin: .5em .5em 0em .5em;
   padding: 0em .5em 1em .5em;
   border-radius: .4em;
   border-color: none;
@@ -417,7 +458,7 @@ header #patient-name {
   display: block;
   background: #f8f5f2;
   margin: 0em .5em 0em .5em;
-  padding: 1em;
+  padding: 1em 1em .3em .5em;
   border-radius: .4em .4em .4em .4em;
   border-color: none;
   font-weight: bold;
@@ -432,13 +473,13 @@ header #patient-name {
 
 .results .results-container #week_number {
   border-collapse: collapse;
-  width: 90%;
+  width: 54%;
   border: 2px solid;
   border-radius: 0.5em;
   border-collapse: collapse;
   overflow: hidden;
   background: #006C5B;
-  margin: 0 1rem 1rem 1rem;
+  margin: 0 1em 1.1em 3.5em;
 }
 
 .results .results-container #week_number td {
@@ -448,7 +489,7 @@ header #patient-name {
   background: white;
   color: #ed9b33;
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding: .2em 0 .2em 0;
 }
 
 .results .results-container #week_number th {
@@ -473,7 +514,7 @@ header #patient-name {
 }
 
 .results .results-container ul li {
-  padding: 0 1rem 0em 0;
+  padding: 0.5em 1rem .5em 0;
   font-size: 1.2em;
 }
 
@@ -481,37 +522,40 @@ header #patient-name {
   font-size: 0.635rem;
   color: #686868;
   font-weight: bold;
-  padding: .3em .5em -1em .5em;
   line-height: 1.5em;
+  padding: 0 .2em 0 .7em;
 }
 
 .results .results-container #high {
   font-weight: bold;
   font-size: .7rem;
   color: green;
+  padding: 0em;
 }
 
 .results .results-container #low {
   font-weight: bold;
   font-size: .7rem;
   color: #ff0000;
+  padding: 0em;
 }
 
 .results .results-container #engage_def {
   font-weight: bold;
   font-size: .7rem;
   color: #006C5B;
+  padding: 0em;
 }
 
 .results .results-container #overall_engagement {
   border-collapse: collapse;
-  width: 90%;
+  width: 54%;
   border: 2px solid;
   border-radius: 0.5em;
   border-collapse: collapse;
   overflow: hidden;
   background: #006C5B;
-  margin: 0 1rem 1rem 1rem;
+  margin: .7em 1em 1em 3.5em;
 }
 
 .results .results-container #overall_engagement td {
@@ -521,7 +565,7 @@ header #patient-name {
   background: white;
   color: #ed9b33;
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding: .2em 0 .2em 0;
 }
 
 .results .results-container #overall_engagement th {
