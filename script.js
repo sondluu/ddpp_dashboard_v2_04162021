@@ -61,6 +61,56 @@ if (p3 == "H") {
 let l1 = document.getElementById("learn").rows[0].cells.item(1).innerHTML;
 let l2 = document.getElementById("learn").rows[0].cells.item(2).innerHTML;
 let l3 = document.getElementById("learn").rows[0].cells.item(3).innerHTML;
+let l4 = document.getElementById("learn").rows[0].cells.item(4).innerHTML;
+let l5 = document.getElementById("learn").rows[0].cells.item(5).innerHTML;
+let l6 = document.getElementById("learn").rows[0].cells.item(6).innerHTML;
+let l7 = document.getElementById("learn").rows[0].cells.item(7).innerHTML;
+let l8 = document.getElementById("learn").rows[0].cells.item(8).innerHTML;
+let l9 = document.getElementById("learn").rows[0].cells.item(9).innerHTML;
+let l10 = document.getElementById("learn").rows[0].cells.item(10).innerHTML;
+let l11 = document.getElementById("learn").rows[0].cells.item(11).innerHTML;
+let l12 = document.getElementById("learn").rows[0].cells.item(12).innerHTML;
+let l13 = document.getElementById("learn").rows[0].cells.item(13).innerHTML;
+let l14 = document.getElementById("learn").rows[0].cells.item(14).innerHTML;
+let l15 = document.getElementById("learn").rows[0].cells.item(15).innerHTML;
+let l16 = document.getElementById("learn").rows[0].cells.item(16).innerHTML;
+let l17 = document.getElementById("learn").rows[0].cells.item(17).innerHTML;
+let l18 = document.getElementById("learn").rows[0].cells.item(18).innerHTML;
+let l19 = document.getElementById("learn").rows[0].cells.item(19).innerHTML;
+let l20 = document.getElementById("learn").rows[0].cells.item(20).innerHTML;
+let l21 = document.getElementById("learn").rows[0].cells.item(21).innerHTML;
+let l22 = document.getElementById("learn").rows[0].cells.item(22).innerHTML;
+let l23 = document.getElementById("learn").rows[0].cells.item(23).innerHTML;
+let l24 = document.getElementById("learn").rows[0].cells.item(24).innerHTML;
+let l25 = document.getElementById("learn").rows[0].cells.item(25).innerHTML;
+let l26 = document.getElementById("learn").rows[0].cells.item(26).innerHTML;
+let l27 = document.getElementById("learn").rows[0].cells.item(27).innerHTML;
+let l28 = document.getElementById("learn").rows[0].cells.item(28).innerHTML;
+let l29 = document.getElementById("learn").rows[0].cells.item(29).innerHTML;
+let l30 = document.getElementById("learn").rows[0].cells.item(30).innerHTML;
+let l31 = document.getElementById("learn").rows[0].cells.item(31).innerHTML;
+let l32 = document.getElementById("learn").rows[0].cells.item(32).innerHTML;
+let l33 = document.getElementById("learn").rows[0].cells.item(33).innerHTML;
+let l34 = document.getElementById("learn").rows[0].cells.item(34).innerHTML;
+let l35 = document.getElementById("learn").rows[0].cells.item(35).innerHTML;
+let l36 = document.getElementById("learn").rows[0].cells.item(36).innerHTML;
+let l37 = document.getElementById("learn").rows[0].cells.item(37).innerHTML;
+let l38 = document.getElementById("learn").rows[0].cells.item(38).innerHTML;
+let l39 = document.getElementById("learn").rows[0].cells.item(39).innerHTML;
+let l40 = document.getElementById("learn").rows[0].cells.item(40).innerHTML;
+let l41 = document.getElementById("learn").rows[0].cells.item(41).innerHTML;
+let l42 = document.getElementById("learn").rows[0].cells.item(42).innerHTML;
+let l43 = document.getElementById("learn").rows[0].cells.item(43).innerHTML;
+let l44 = document.getElementById("learn").rows[0].cells.item(44).innerHTML;
+let l45 = document.getElementById("learn").rows[0].cells.item(45).innerHTML;
+let l46 = document.getElementById("learn").rows[0].cells.item(46).innerHTML;
+let l47 = document.getElementById("learn").rows[0].cells.item(47).innerHTML;
+let l48 = document.getElementById("learn").rows[0].cells.item(48).innerHTML;
+let l49 = document.getElementById("learn").rows[0].cells.item(49).innerHTML;
+let l50 = document.getElementById("learn").rows[0].cells.item(50).innerHTML;
+let l51 = document.getElementById("learn").rows[0].cells.item(51).innerHTML;
+let l52 = document.getElementById("learn").rows[0].cells.item(52).innerHTML;
+
 
 if (l1 == "H") {
     greenDotL1();
@@ -113,10 +163,977 @@ if (l3 == "H") {
     x3[3].innerHTML = "🔴";
   }
 
+
+
+  
+if (l4 == "H") {
+  greenDotL4();
+} else if (l4 == "L") {
+  redDotL4();
+}
+
+function greenDotL4() {
+  let x4 = document.getElementById("learn").rows[1].cells;
+  x4[4].innerHTML = "🟢";
+}
+
+function redDotL4() {
+  let x4 = document.getElementById("learn").rows[2].cells;
+  x4[4].innerHTML = "🔴";
+}
+
+
+if (l5 == "H") {
+  greenDotL5();
+} else if (l5 == "L") {
+  redDotL5();
+}
+
+function greenDotL5() {
+  let x5 = document.getElementById("learn").rows[1].cells;
+  x5[5].innerHTML = "🟢";
+}
+
+function redDotL5() {
+  let x5 = document.getElementById("learning").rows[2].cells;
+  x5[5].innerHTML = "🔴";
+}
+
+
+  
+if (l6 == "H") {
+  greenDotL6();
+} else if (l6 == "L") {
+  redDotL6();
+}
+
+function greenDotL6() {
+  let x6 = document.getElementById("learn").rows[1].cells;
+  x6[6].innerHTML = "🟢";
+}
+
+function redDotL6() {
+  let x6 = document.getElementById("learn").rows[2].cells;
+  x6[6].innerHTML = "🔴";
+}
+
+
+
+
+if (l7 == "H") {
+  greenDotL7();
+} else if (l7 == "L") {
+  redDotL7();
+}
+
+function greenDotL7() {
+  let x7 = document.getElementById("learn").rows[1].cells;
+  x7[7].innerHTML = "🟢";
+}
+
+function redDotL7() {
+  let x7 = document.getElementById("learn").rows[2].cells;
+  x7[7].innerHTML = "🔴";
+}
+
+
+
+
+if (l8 == "H") {
+  greenDotL8();
+} else if (l8 == "L") {
+  redDotL8();
+}
+
+function greenDotL8() {
+  let x8 = document.getElementById("learn").rows[1].cells;
+  x8[8].innerHTML = "🟢";
+}
+
+function redDotL8() {
+  let x8 = document.getElementById("learn").rows[2].cells;
+  x8[8].innerHTML = "🔴";
+}
+
+
+  
+if (l9 == "H") {
+  greenDotL9();
+} else if (l9 == "L") {
+  redDotL9();
+}
+
+function greenDotL9() {
+  let x9 = document.getElementById("learn").rows[1].cells;
+  x9[9].innerHTML = "🟢";
+}
+
+function redDotL9() {
+  let x9 = document.getElementById("learn").rows[2].cells;
+  x9[9].innerHTML = "🔴";
+}
+
+if (l10 == "H") {
+  greenDotL10();
+} else if (l10 == "L") {
+  redDotL10();
+}
+
+function greenDotL10() {
+  let x10 = document.getElementById("learn").rows[1].cells;
+  x10[10].innerHTML = "🟢";
+}
+
+function redDotL10() {
+  let x10 = document.getElementById("learn").rows[2].cells;
+  x10[10].innerHTML = "🔴";
+}
+
+
+
+
+if (l11 == "H") {
+  greenDotL11();
+} else if (l11 == "L") {
+  redDotL11();
+}
+
+function greenDotL11() {
+  let x11 = document.getElementById("learn").rows[1].cells;
+  x11[11].innerHTML = "🟢";
+}
+
+function redDotL11() {
+  let x11 = document.getElementById("learn").rows[2].cells;
+  x11[11].innerHTML = "🔴";
+}
+
+
+
+
+if (l12 == "H") {
+  greenDotL12();
+} else if (l12 == "L") {
+  redDotL12();
+}
+
+function greenDotL12() {
+  let x12 = document.getElementById("learn").rows[1].cells;
+  x12[12].innerHTML = "🟢";
+}
+
+function redDotL12() {
+  let x12 = document.getElementById("learn").rows[2].cells;
+  x12[12].innerHTML = "🔴";
+}
+
+
+
+
+
+if (l13 == "H") {
+  greenDotL13();
+} else if (l13 == "L") {
+  redDotL13();
+}
+
+function greenDotL13() {
+  let x13 = document.getElementById("learn").rows[1].cells;
+  x13[13].innerHTML = "🟢";
+}
+
+function redDotL13() {
+  let x13 = document.getElementById("learn").rows[2].cells;
+  x13[13].innerHTML = "🔴";
+}
+
+
+
+
+if (l14 == "H") {
+  greenDotL14();
+} else if (l14 == "L") {
+  redDotL14();
+}
+
+function greenDotL14() {
+  let x14 = document.getElementById("learn").rows[1].cells;
+  x14[14].innerHTML = "🟢";
+}
+
+function redDotL14() {
+  let x14 = document.getElementById("learn").rows[2].cells;
+  x14[14].innerHTML = "🔴";
+}
+
+
+
+
+if (l15 == "H") {
+  greenDotL15();
+} else if (l15 == "L") {
+  redDotL15();
+}
+
+function greenDotL15() {
+  let x15 = document.getElementById("learn").rows[1].cells;
+  x15[15].innerHTML = "🟢";
+}
+
+function redDotL15() {
+  let x15 = document.getElementById("learn").rows[2].cells;
+  x15[15].innerHTML = "🔴";
+}
+
+
+
+
+if (l16 == "H") {
+  greenDotL16();
+} else if (l16 == "L") {
+  redDotL16();
+}
+
+function greenDotL16() {
+  let x16 = document.getElementById("learn").rows[1].cells;
+  x16[16].innerHTML = "🟢";
+}
+
+function redDotL16() {
+  let x16 = document.getElementById("learn").rows[2].cells;
+  x16[16].innerHTML = "🔴";
+}
+
+
+
+
+if (l17 == "H") {
+  greenDotL17();
+} else if (l17 == "L") {
+  redDotL17();
+}
+
+function greenDotL17() {
+  let x17 = document.getElementById("learn").rows[1].cells;
+  x17[17].innerHTML = "🟢";
+}
+
+function redDotL17() {
+  let x17 = document.getElementById("learn").rows[2].cells;
+  x17[17].innerHTML = "🔴";
+}
+
+
+
+
+if (l18 == "H") {
+  greenDotL18();
+} else if (l18 == "L") {
+  redDotL18();
+}
+
+function greenDotL18() {
+  let x18 = document.getElementById("learn").rows[1].cells;
+  x18[18].innerHTML = "🟢";
+}
+
+function redDotL18() {
+  let x18 = document.getElementById("learn").rows[2].cells;
+  x18[18].innerHTML = "🔴";
+}
+
+
+
+
+if (l19 == "H") {
+  greenDotL19();
+} else if (l19 == "L") {
+  redDotL19();
+}
+
+function greenDotL19() {
+  let x19 = document.getElementById("learn").rows[1].cells;
+  x19[19].innerHTML = "🟢";
+}
+
+function redDotL19() {
+  let x19 = document.getElementById("learn").rows[2].cells;
+  x19[19].innerHTML = "🔴";
+}
+
+
+
+
+if (l20 == "H") {
+  greenDotL20();
+} else if (l20 == "L") {
+  redDotL20();
+}
+
+function greenDotL20() {
+  let x20 = document.getElementById("learn").rows[1].cells;
+  x20[20].innerHTML = "🟢";
+}
+
+function redDotL20() {
+  let x20 = document.getElementById("learn").rows[2].cells;
+  x20[20].innerHTML = "🔴";
+}
+
+
+
+if (l21 == "H") {
+  greenDotL21();
+} else if (l21 == "L") {
+  redDotL21();
+}
+
+function greenDotL21() {
+  let x21 = document.getElementById("learn").rows[1].cells;
+  x21[21].innerHTML = "🟢";
+}
+
+function redDotL21() {
+  let x21 = document.getElementById("learn").rows[2].cells;
+  x21[21].innerHTML = "🔴";
+}
+
+
+if (l22 == "H") {
+  greenDotL22();
+} else if (l22 == "L") {
+  redDotL22();
+}
+
+function greenDotL22() {
+  let x22 = document.getElementById("learn").rows[1].cells;
+  x22[22].innerHTML = "🟢";
+}
+
+function redDotL22() {
+  let x22 = document.getElementById("learn").rows[2].cells;
+  x22[22].innerHTML = "🔴";
+}
+
+
+
+
+if (l23 == "H") {
+  greenDotL23();
+} else if (l23 == "L") {
+  redDotL23();
+}
+
+function greenDotL23() {
+  let x23 = document.getElementById("learn").rows[1].cells;
+  x23[23].innerHTML = "🟢";
+}
+
+function redDotL23() {
+  let x23 = document.getElementById("learn").rows[2].cells;
+  x23[23].innerHTML = "🔴";
+}
+
+
+
+
+if (l24 == "H") {
+  greenDotL24();
+} else if (l24 == "L") {
+  redDotL24();
+}
+
+function greenDotL24() {
+  let x24 = document.getElementById("learn").rows[1].cells;
+  x24[24].innerHTML = "🟢";
+}
+
+function redDotL24() {
+  let x24 = document.getElementById("learn").rows[2].cells;
+  x24[24].innerHTML = "🔴";
+}
+
+
+
+
+if (l25 == "H") {
+  greenDotL25();
+} else if (l25 == "L") {
+  redDotL25();
+}
+
+function greenDotL25() {
+  let x25 = document.getElementById("learn").rows[1].cells;
+  x25[25].innerHTML = "🟢";
+}
+
+function redDotL25() {
+  let x25 = document.getElementById("learn").rows[2].cells;
+  x25[25].innerHTML = "🔴";
+}
+
+
+
+if (l26 == "H") {
+  greenDotL26();
+} else if (l26 == "L") {
+  redDotL26();
+}
+
+function greenDotL26() {
+  let x26 = document.getElementById("learn").rows[1].cells;
+  x26[26].innerHTML = "🟢";
+}
+
+function redDotL26() {
+  let x26 = document.getElementById("learn").rows[2].cells;
+  x26s[26].innerHTML = "🔴";
+}
+
+
+
+
+if (l27 == "H") {
+  greenDotL27();
+} else if (l27 == "L") {
+  redDotL27();
+}
+
+function greenDotL27() {
+  let x27 = document.getElementById("learn").rows[1].cells;
+  x27[27].innerHTML = "🟢";
+}
+
+function redDotL27() {
+  let x27 = document.getElementById("learn").rows[2].cells;
+  x27[27].innerHTML = "🔴";
+}
+
+
+
+
+if (l28 == "H") {
+  greenDotL28();
+} else if (l28 == "L") {
+  redDotL28();
+}
+
+function greenDotL28() {
+  let x28 = document.getElementById("learn").rows[1].cells;
+  x28[28].innerHTML = "🟢";
+}
+
+function redDotL28() {
+  let x28 = document.getElementById("learn").rows[2].cells;
+  x28[28].innerHTML = "🔴";
+}
+
+
+
+if (l29 == "H") {
+  greenDotL29();
+} else if (l29 == "L") {
+  redDotL29();
+}
+
+function greenDotL29() {
+  let x29 = document.getElementById("learn").rows[1].cells;
+  x29[29].innerHTML = "🟢";
+}
+
+function redDotL29() {
+  let x29 = document.getElementById("learn").rows[2].cells;
+  x29[29].innerHTML = "🔴";
+}
+
+
+
+
+if (l30 == "H") {
+  greenDotL30();
+} else if (l30 == "L") {
+  redDotL30();
+}
+
+function greenDotL30() {
+  let x30 = document.getElementById("learn").rows[1].cells;
+  x30[30].innerHTML = "🟢";
+}
+
+function redDotL30() {
+  let x30 = document.getElementById("learn").rows[2].cells;
+  x30[30].innerHTML = "🔴";
+}
+
+
+
+if (l31 == "H") {
+  greenDotL31();
+} else if (l31 == "L") {
+  redDotL31();
+}
+
+function greenDotL31() {
+  let x31 = document.getElementById("learn").rows[1].cells;
+  x31[31].innerHTML = "🟢";
+}
+
+function redDotL31() {
+  let x31 = document.getElementById("learn").rows[2].cells;
+  x31[31].innerHTML = "🔴";
+}
+
+
+
+if (l32 == "H") {
+  greenDotL32();
+} else if (l32 == "L") {
+  redDotL32();
+}
+
+function greenDotL32() {
+  let x32 = document.getElementById("learn").rows[1].cells;
+  x32[32].innerHTML = "🟢";
+}
+
+function redDotL32() {
+  let x32 = document.getElementById("learn").rows[2].cells;
+  x32[32].innerHTML = "🔴";
+}
+
+
+
+
+if (l33 == "H") {
+  greenDotL33();
+} else if (l33 == "L") {
+  redDotL33();
+}
+
+function greenDotL33() {
+  let x33 = document.getElementById("learn").rows[1].cells;
+  x33[33].innerHTML = "🟢";
+}
+
+function redDotL33() {
+  let x33 = document.getElementById("learn").rows[2].cells;
+  x33[33].innerHTML = "🔴";
+}
+
+
+
+if (l34 == "H") {
+  greenDotL34();
+} else if (l34 == "L") {
+  redDotL34();
+}
+
+function greenDotL34() {
+  let x34 = document.getElementById("learn").rows[1].cells;
+  x34[34].innerHTML = "🟢";
+}
+
+function redDotL34() {
+  let x34 = document.getElementById("learn").rows[2].cells;
+  x34[34].innerHTML = "🔴";
+}
+
+
+if (l35 == "H") {
+  greenDotL35();
+} else if (l35 == "L") {
+  redDotL35();
+}
+
+function greenDotL35() {
+  let x35 = document.getElementById("learn").rows[1].cells;
+  x35[35].innerHTML = "🟢";
+}
+
+function redDotL35() {
+  let x35 = document.getElementById("learn").rows[2].cells;
+  x35[35].innerHTML = "🔴";
+}
+
+
+
+if (l36 == "H") {
+  greenDotL36();
+} else if (l36 == "L") {
+  redDotL36();
+}
+
+function greenDotL36() {
+  let x36 = document.getElementById("learn").rows[1].cells;
+  x36[36].innerHTML = "🟢";
+}
+
+function redDotL36() {
+  let x36 = document.getElementById("learn").rows[2].cells;
+  x34[36].innerHTML = "🔴";
+}
+
+
+
+if (l37 == "H") {
+  greenDotL37();
+} else if (l37 == "L") {
+  redDotL37();
+}
+
+function greenDotL37() {
+  let x37 = document.getElementById("learn").rows[1].cells;
+  x37[37].innerHTML = "🟢";
+}
+
+function redDotL37() {
+  let x37 = document.getElementById("learn").rows[2].cells;
+  x37[37].innerHTML = "🔴";
+}
+
+
+
+if (l38 == "H") {
+  greenDotL38();
+} else if (l38 == "L") {
+  redDotL38();
+}
+
+function greenDotL38() {
+  let x38 = document.getElementById("learn").rows[1].cells;
+  x38[38].innerHTML = "🟢";
+}
+
+function redDotL38() {
+  let x38 = document.getElementById("learn").rows[2].cells;
+  x38[38].innerHTML = "🔴";
+}
+
+
+
+if (l39 == "H") {
+  greenDotL39();
+} else if (l39 == "L") {
+  redDotL39();
+}
+
+function greenDotL39() {
+  let x39 = document.getElementById("learn").rows[1].cells;
+  x39[39].innerHTML = "🟢";
+}
+
+function redDotL39() {
+  let x39 = document.getElementById("learn").rows[2].cells;
+  x39[39].innerHTML = "🔴";
+}
+
+
+
+if (l40 == "H") {
+  greenDotL40();
+} else if (l40 == "L") {
+  redDotL40();
+}
+
+function greenDotL40() {
+  let x40 = document.getElementById("learn").rows[1].cells;
+  x40[40].innerHTML = "🟢";
+}
+
+function redDotL40() {
+  let x40 = document.getElementById("learn").rows[2].cells;
+  x40[40].innerHTML = "🔴";
+}
+
+
+
+if (l41 == "H") {
+  greenDotL41();
+} else if (l41 == "L") {
+  redDotL41();
+}
+
+function greenDotL41() {
+  let x41 = document.getElementById("learn").rows[1].cells;
+  x41[41].innerHTML = "🟢";
+}
+
+function redDotL41() {
+  let x41 = document.getElementById("learn").rows[2].cells;
+  x41[41].innerHTML = "🔴";
+}
+
+
+
+
+
+if (l42 == "H") {
+  greenDotL42();
+} else if (l42 == "L") {
+  redDotL42();
+}
+
+function greenDotL42() {
+  let x42 = document.getElementById("learn").rows[1].cells;
+  x42[42].innerHTML = "🟢";
+}
+
+function redDotL42() {
+  let x42 = document.getElementById("learn").rows[2].cells;
+  x42[42].innerHTML = "🔴";
+}
+
+
+
+
+if (l43 == "H") {
+  greenDotL43();
+} else if (l43 == "L") {
+  redDotL43();
+}
+
+function greenDotL43() {
+  let x43 = document.getElementById("learn").rows[1].cells;
+  x43[43].innerHTML = "🟢";
+}
+
+function redDotL43() {
+  let x43 = document.getElementById("learn").rows[2].cells;
+  x43[43].innerHTML = "🔴";
+}
+
+
+
+
+if (l44 == "H") {
+  greenDotL44();
+} else if (l44 == "L") {
+  redDotL44();
+}
+
+function greenDotL44() {
+  let x44 = document.getElementById("learn").rows[1].cells;
+  x44[44].innerHTML = "🟢";
+}
+
+function redDotL44() {
+  let x44 = document.getElementById("learn").rows[2].cells;
+  x44[44].innerHTML = "🔴";
+}
+
+
+
+
+if (l45 == "H") {
+  greenDotL45();
+} else if (l45 == "L") {
+  redDotL45();
+}
+
+function greenDotL45() {
+  let x45 = document.getElementById("learn").rows[1].cells;
+  x45[45].innerHTML = "🟢";
+}
+
+function redDotL45() {
+  let x45 = document.getElementById("learn").rows[2].cells;
+  x45[45].innerHTML = "🔴";
+}
+
+
+
+
+if (l46 == "H") {
+  greenDotL46();
+} else if (l46 == "L") {
+  redDotL46();
+}
+
+function greenDotL46() {
+  let x46 = document.getElementById("learn").rows[1].cells;
+  x46[46].innerHTML = "🟢";
+}
+
+function redDotL46() {
+  let x46 = document.getElementById("learn").rows[2].cells;
+  x46[46].innerHTML = "🔴";
+}
+
+
+
+
+
+if (l47 == "H") {
+  greenDotL47();
+} else if (l47 == "L") {
+  redDotL47();
+}
+
+function greenDotL47() {
+  let x47 = document.getElementById("learn").rows[1].cells;
+  x47[47].innerHTML = "🟢";
+}
+
+function redDotL47() {
+  let x47 = document.getElementById("learn").rows[2].cells;
+  x47[47].innerHTML = "🔴";
+}
+
+
+
+
+if (l48 == "H") {
+  greenDotL48();
+} else if (l48 == "L") {
+  redDotL48();
+}
+
+function greenDotL48() {
+  let x48 = document.getElementById("learn").rows[1].cells;
+  x48[48].innerHTML = "🟢";
+}
+
+function redDotL48() {
+  let x48 = document.getElementById("learn").rows[2].cells;
+  x48[48].innerHTML = "🔴";
+}
+
+
+
+
+if (l49 == "H") {
+  greenDotL49();
+} else if (l49 == "L") {
+  redDotL49();
+}
+
+function greenDotL49() {
+  let x49 = document.getElementById("learn").rows[1].cells;
+  x49[49].innerHTML = "🟢";
+}
+
+function redDotL49() {
+  let x49 = document.getElementById("learn").rows[2].cells;
+  x49[49].innerHTML = "🔴";
+}
+
+
+
+
+
+if (l50 == "H") {
+  greenDotL50();
+} else if (l50 == "L") {
+  redDotL50();
+}
+
+function greenDotL50() {
+  let x50 = document.getElementById("learn").rows[1].cells;
+  x50[50].innerHTML = "🟢";
+}
+
+function redDotL50() {
+  let x50 = document.getElementById("learn").rows[2].cells;
+  x50[50].innerHTML = "🔴";
+}
+
+
+
+
+if (l51 == "H") {
+  greenDotL51();
+} else if (l51 == "L") {
+  redDotL51();
+}
+
+function greenDotL51() {
+  let x51 = document.getElementById("learn").rows[1].cells;
+  x51[51].innerHTML = "🟢";
+}
+
+function redDotL51() {
+  let x51 = document.getElementById("learn").rows[2].cells;
+  x51[51].innerHTML = "🔴";
+}
+
+
+
+if (l52 == "H") {
+  greenDotL52();
+} else if (l52 == "L") {
+  redDotL52();
+}
+
+function greenDotL52() {
+  let x52 = document.getElementById("learn").rows[1].cells;
+  x52[52].innerHTML = "🟢";
+}
+
+function redDotL52() {
+  let x52 = document.getElementById("learn").rows[2].cells;
+  x52[52].innerHTML = "🔴";
+}
+
+
+
+
+
+
+
+
+
+
  
   let w1 = document.getElementById("weigh").rows[0].cells.item(1).innerHTML;
   let w2 = document.getElementById("weigh").rows[0].cells.item(2).innerHTML;
   let w3 = document.getElementById("weigh").rows[0].cells.item(3).innerHTML;
+  let w4 = document.getElementById("weigh").rows[0].cells.item(4).innerHTML;
+  let w5 = document.getElementById("weigh").rows[0].cells.item(5).innerHTML;
+  let w6 = document.getElementById("weigh").rows[0].cells.item(6).innerHTML;
+  let w7 = document.getElementById("weigh").rows[0].cells.item(7).innerHTML;
+  let w8 = document.getElementById("weigh").rows[0].cells.item(8).innerHTML;
+  let w9 = document.getElementById("weigh").rows[0].cells.item(9).innerHTML;
+  let w10 = document.getElementById("weigh").rows[0].cells.item(10).innerHTML;
+  let w11 = document.getElementById("weigh").rows[0].cells.item(11).innerHTML;
+  let w12 = document.getElementById("weigh").rows[0].cells.item(12).innerHTML;
+  let w13 = document.getElementById("weigh").rows[0].cells.item(13).innerHTML;
+  let w14 = document.getElementById("weigh").rows[0].cells.item(14).innerHTML;
+  let w15 = document.getElementById("weigh").rows[0].cells.item(15).innerHTML;
+  let w16 = document.getElementById("weigh").rows[0].cells.item(16).innerHTML;
+  let w17 = document.getElementById("weigh").rows[0].cells.item(17).innerHTML;
+  let w18 = document.getElementById("weigh").rows[0].cells.item(18).innerHTML;
+  let w19 = document.getElementById("weigh").rows[0].cells.item(19).innerHTML;
+  let w20 = document.getElementById("weigh").rows[0].cells.item(20).innerHTML;
+  let w21 = document.getElementById("weigh").rows[0].cells.item(21).innerHTML;
+  let w22 = document.getElementById("weigh").rows[0].cells.item(22).innerHTML;
+  let w23 = document.getElementById("weigh").rows[0].cells.item(23).innerHTML;
+  let w24 = document.getElementById("weigh").rows[0].cells.item(24).innerHTML;
+  let w25 = document.getElementById("weigh").rows[0].cells.item(25).innerHTML;
+  let w26 = document.getElementById("weigh").rows[0].cells.item(26).innerHTML;
+  let w27 = document.getElementById("weigh").rows[0].cells.item(27).innerHTML;
+  let w28 = document.getElementById("weigh").rows[0].cells.item(28).innerHTML;
+  let w29 = document.getElementById("weigh").rows[0].cells.item(29).innerHTML;
+  let w30 = document.getElementById("weigh").rows[0].cells.item(30).innerHTML;
+  let w31 = document.getElementById("weigh").rows[0].cells.item(31).innerHTML;
+  let w32 = document.getElementById("weigh").rows[0].cells.item(32).innerHTML;
+  let w33 = document.getElementById("weigh").rows[0].cells.item(33).innerHTML;
+  let w34 = document.getElementById("weigh").rows[0].cells.item(34).innerHTML;
+  let w35 = document.getElementById("weigh").rows[0].cells.item(35).innerHTML;
+  let w36 = document.getElementById("weigh").rows[0].cells.item(36).innerHTML;
+  let w37 = document.getElementById("weigh").rows[0].cells.item(37).innerHTML;
+  let w38 = document.getElementById("weigh").rows[0].cells.item(38).innerHTML;
+  let w39 = document.getElementById("weigh").rows[0].cells.item(39).innerHTML;
+  let w40 = document.getElementById("weigh").rows[0].cells.item(40).innerHTML;
+  let w41 = document.getElementById("weigh").rows[0].cells.item(41).innerHTML;
+  let w42 = document.getElementById("weigh").rows[0].cells.item(42).innerHTML;
+  let w43 = document.getElementById("weigh").rows[0].cells.item(43).innerHTML;
+  let w44 = document.getElementById("weigh").rows[0].cells.item(44).innerHTML;
+  let w45 = document.getElementById("weigh").rows[0].cells.item(45).innerHTML;
+  let w46 = document.getElementById("weigh").rows[0].cells.item(46).innerHTML;
+  let w47 = document.getElementById("weigh").rows[0].cells.item(47).innerHTML;
+  let w48 = document.getElementById("weigh").rows[0].cells.item(48).innerHTML;
+  let w49 = document.getElementById("weigh").rows[0].cells.item(49).innerHTML;
+  let w50 = document.getElementById("weigh").rows[0].cells.item(50).innerHTML;
   let w51 = document.getElementById("weigh").rows[0].cells.item(51).innerHTML;
   let w52 = document.getElementById("weigh").rows[0].cells.item(52).innerHTML;
 
@@ -171,6 +1188,874 @@ if (w3 == "H") {
     let x3 = document.getElementById("weigh").rows[2].cells;
     x3[3].innerHTML = "🔴";
   }
+
+
+
+      
+if (w4 == "H") {
+  greenDotW4();
+} else if (w4 == "L") {
+  redDotW4();
+}
+
+function greenDotW4() {
+  let x4 = document.getElementById("weigh").rows[1].cells;
+  x4[4].innerHTML = "🟢";
+}
+
+function redDotW4() {
+  let x4 = document.getElementById("weigh").rows[2].cells;
+  x4[4].innerHTML = "🔴";
+}
+
+
+
+if (w5 == "H") {
+  greenDotW5();
+} else if (w5 == "L") {
+  redDotW5();
+}
+
+function greenDotW5() {
+  let x5 = document.getElementById("weigh").rows[1].cells;
+  x5[5].innerHTML = "🟢";
+}
+
+function redDotW5() {
+  let x5 = document.getElementById("weigh").rows[2].cells;
+  x5[5].innerHTML = "🔴";
+}
+
+
+
+if (w6 == "H") {
+  greenDotW6();
+} else if (w6 == "L") {
+  redDotW6();
+}
+
+function greenDotW6() {
+  let x6 = document.getElementById("weigh").rows[1].cells;
+  x6[6].innerHTML = "🟢";
+}
+
+function redDotW6() {
+  let x6 = document.getElementById("weigh").rows[2].cells;
+  x6[6].innerHTML = "🔴";
+}
+
+
+
+if (w7 == "H") {
+  greenDotW7();
+} else if (w7 == "L") {
+  redDotW7();
+}
+
+function greenDotW7() {
+  let x7 = document.getElementById("weigh").rows[1].cells;
+  x7[7].innerHTML = "🟢";
+}
+
+function redDotW7() {
+  let x7 = document.getElementById("weigh").rows[2].cells;
+  x7[7].innerHTML = "🔴";
+}
+
+
+
+if (w8 == "H") {
+  greenDotW8();
+} else if (w8 == "L") {
+  redDotW8();
+}
+
+function greenDotW8() {
+  let x8 = document.getElementById("weigh").rows[1].cells;
+  x8[8].innerHTML = "🟢";
+}
+
+function redDotW8() {
+  let x8 = document.getElementById("weigh").rows[2].cells;
+  x8[8].innerHTML = "🔴";
+}
+
+
+
+if (w9 == "H") {
+  greenDotW9();
+} else if (w9 == "L") {
+  redDotW9();
+}
+
+function greenDotW9() {
+  let x9 = document.getElementById("weigh").rows[1].cells;
+  x9[9].innerHTML = "🟢";
+}
+
+function redDotW9() {
+  let x9 = document.getElementById("weigh").rows[2].cells;
+  x9[9].innerHTML = "🔴";
+}
+
+
+
+if (w10 == "H") {
+  greenDotW10();
+} else if (w10 == "L") {
+  redDotW10();
+}
+
+function greenDotW10() {
+  let x10 = document.getElementById("weigh").rows[1].cells;
+  x10[10].innerHTML = "🟢";
+}
+
+function redDotW10() {
+  let x10 = document.getElementById("weigh").rows[2].cells;
+  x10[10].innerHTML = "🔴";
+}
+
+
+
+
+if (w11 == "H") {
+  greenDotW11();
+} else if (w11 == "L") {
+  redDotW11();
+}
+
+function greenDotW11() {
+  let x11 = document.getElementById("weigh").rows[1].cells;
+  x11[11].innerHTML = "🟢";
+}
+
+function redDotW11() {
+  let x11 = document.getElementById("weigh").rows[2].cells;
+  x11[11].innerHTML = "🔴";
+}
+
+
+
+
+if (w12 == "H") {
+  greenDotW12();
+} else if (w12 == "L") {
+  redDotW12();
+}
+
+function greenDotW12() {
+  let x12 = document.getElementById("weigh").rows[1].cells;
+  x12[12].innerHTML = "🟢";
+}
+
+function redDotW12() {
+  let x12 = document.getElementById("weigh").rows[2].cells;
+  x12[12].innerHTML = "🔴";
+}
+
+
+
+
+if (w13 == "H") {
+  greenDotW13();
+} else if (w13 == "L") {
+  redDotW13();
+}
+
+function greenDotW13() {
+  let x13 = document.getElementById("weigh").rows[1].cells;
+  x13[13].innerHTML = "🟢";
+}
+
+function redDotW13() {
+  let x13 = document.getElementById("weigh").rows[2].cells;
+  x13[13].innerHTML = "🔴";
+}
+
+
+
+
+if (w14 == "H") {
+  greenDotW14();
+} else if (w14 == "L") {
+  redDotW14();
+}
+
+function greenDotW14() {
+  let x14 = document.getElementById("weigh").rows[1].cells;
+  x14[14].innerHTML = "🟢";
+}
+
+function redDotW14() {
+  let x14 = document.getElementById("weigh").rows[2].cells;
+  x14[14].innerHTML = "🔴";
+}
+
+
+
+
+if (w15 == "H") {
+  greenDotW15();
+} else if (w15 == "L") {
+  redDotW15();
+}
+
+function greenDotW15() {
+  let x15 = document.getElementById("weigh").rows[1].cells;
+  x15[15].innerHTML = "🟢";
+}
+
+function redDotW15() {
+  let x15 = document.getElementById("weigh").rows[2].cells;
+  x15[15].innerHTML = "🔴";
+}
+
+
+
+
+
+if (w16 == "H") {
+  greenDotW16();
+} else if (w16 == "L") {
+  redDotW16();
+}
+
+function greenDotW16() {
+  let x16 = document.getElementById("weigh").rows[1].cells;
+  x16[16].innerHTML = "🟢";
+}
+
+function redDotW16() {
+  let x16 = document.getElementById("weigh").rows[2].cells;
+  x16[16].innerHTML = "🔴";
+}
+
+
+
+
+if (w17 == "H") {
+  greenDotW17();
+} else if (w17 == "L") {
+  redDotW17();
+}
+
+function greenDotW17() {
+  let x17 = document.getElementById("weigh").rows[1].cells;
+  x17[17].innerHTML = "🟢";
+}
+
+function redDotW17() {
+  let x17 = document.getElementById("weigh").rows[2].cells;
+  x17[17].innerHTML = "🔴";
+}
+
+
+
+
+if (w18 == "H") {
+  greenDotW18();
+} else if (w18 == "L") {
+  redDotW18();
+}
+
+function greenDotW18() {
+  let x18 = document.getElementById("weigh").rows[1].cells;
+  x18[18].innerHTML = "🟢";
+}
+
+function redDotW18() {
+  let x18 = document.getElementById("weigh").rows[2].cells;
+  x18[18].innerHTML = "🔴";
+}
+
+
+
+
+if (w19 == "H") {
+  greenDotW19();
+} else if (w19 == "L") {
+  redDotW19();
+}
+
+function greenDotW19() {
+  let x19 = document.getElementById("weigh").rows[1].cells;
+  x19[19].innerHTML = "🟢";
+}
+
+function redDotW19() {
+  let x19 = document.getElementById("weigh").rows[2].cells;
+  x19[19].innerHTML = "🔴";
+}
+
+
+
+
+if (w20 == "H") {
+  greenDotW20();
+} else if (w20 == "L") {
+  redDotW20();
+}
+
+function greenDotW20() {
+  let x20 = document.getElementById("weigh").rows[1].cells;
+  x20[20].innerHTML = "🟢";
+}
+
+function redDotW20() {
+  let x20 = document.getElementById("weigh").rows[2].cells;
+  x20[20].innerHTML = "🔴";
+}
+
+
+
+
+if (w21 == "H") {
+  greenDotW21();
+} else if (w21 == "L") {
+  redDotW21();
+}
+
+function greenDotW21() {
+  let x21 = document.getElementById("weigh").rows[1].cells;
+  x21[21].innerHTML = "🟢";
+}
+
+function redDotW21() {
+  let x21 = document.getElementById("weigh").rows[2].cells;
+  x21[21].innerHTML = "🔴";
+}
+
+
+
+if (w22 == "H") {
+  greenDotW22();
+} else if (w22 == "L") {
+  redDotW22();
+}
+
+function greenDotW22() {
+  let x22 = document.getElementById("weigh").rows[1].cells;
+  x22[22].innerHTML = "🟢";
+}
+
+function redDotW22() {
+  let x22 = document.getElementById("weigh").rows[2].cells;
+  x22[22].innerHTML = "🔴";
+}
+
+
+
+if (w23 == "H") {
+  greenDotW22();
+} else if (w22 == "L") {
+  redDotW22();
+}
+
+function greenDotW22() {
+  let x22 = document.getElementById("weigh").rows[1].cells;
+  x22[22].innerHTML = "🟢";
+}
+
+function redDotW22() {
+  let x22 = document.getElementById("weigh").rows[2].cells;
+  x22[22].innerHTML = "🔴";
+}
+
+
+
+if (w23 == "H") {
+  greenDotW23();
+} else if (w23 == "L") {
+  redDotW23();
+}
+
+function greenDotW23() {
+  let x23 = document.getElementById("weigh").rows[1].cells;
+  x23[23].innerHTML = "🟢";
+}
+
+function redDotW23() {
+  let x23 = document.getElementById("weigh").rows[2].cells;
+  x23[23].innerHTML = "🔴";
+}
+
+
+
+if (w24 == "H") {
+  greenDotW24();
+} else if (w24 == "L") {
+  redDotW24();
+}
+
+function greenDotW24() {
+  let x24 = document.getElementById("weigh").rows[1].cells;
+  x24[24].innerHTML = "🟢";
+}
+
+function redDotW24() {
+  let x24 = document.getElementById("weigh").rows[2].cells;
+  x24[24].innerHTML = "🔴";
+}
+
+
+
+if (w25 == "H") {
+  greenDotW25();
+} else if (w25 == "L") {
+  redDotW25();
+}
+
+function greenDotW25() {
+  let x25 = document.getElementById("weigh").rows[1].cells;
+  x25[25].innerHTML = "🟢";
+}
+
+function redDotW25() {
+  let x25 = document.getElementById("weigh").rows[2].cells;
+  x25[25].innerHTML = "🔴";
+}
+
+
+
+if (w26 == "H") {
+  greenDotW26();
+} else if (w26 == "L") {
+  redDotW26();
+}
+
+function greenDotW26() {
+  let x26 = document.getElementById("weigh").rows[1].cells;
+  x26[26].innerHTML = "🟢";
+}
+
+function redDotW26() {
+  let x26 = document.getElementById("weigh").rows[2].cells;
+  x26[26].innerHTML = "🔴";
+}
+
+
+
+if (w27 == "H") {
+  greenDotW27();
+} else if (w27 == "L") {
+  redDotW27();
+}
+
+function greenDotW27() {
+  let x27 = document.getElementById("weigh").rows[1].cells;
+  x27[27].innerHTML = "🟢";
+}
+
+function redDotW27() {
+  let x27 = document.getElementById("weigh").rows[2].cells;
+  x27[27].innerHTML = "🔴";
+}
+
+
+
+if (w28 == "H") {
+  greenDotW28();
+} else if (w28 == "L") {
+  redDotW28();
+}
+
+function greenDotW28() {
+  let x28 = document.getElementById("weigh").rows[1].cells;
+  x28[28].innerHTML = "🟢";
+}
+
+function redDotW28() {
+  let x28 = document.getElementById("weigh").rows[2].cells;
+  x28[28].innerHTML = "🔴";
+}
+
+
+
+if (w29 == "H") {
+  greenDotW29();
+} else if (w29 == "L") {
+  redDotW29();
+}
+
+function greenDotW29() {
+  let x29 = document.getElementById("weigh").rows[1].cells;
+  x29[29].innerHTML = "🟢";
+}
+
+function redDotW29() {
+  let x29 = document.getElementById("weigh").rows[2].cells;
+  x29[29].innerHTML = "🔴";
+}
+
+
+
+if (w30 == "H") {
+  greenDotW30();
+} else if (w30 == "L") {
+  redDotW30();
+}
+
+function greenDotW30() {
+  let x30 = document.getElementById("weigh").rows[1].cells;
+  x30[30].innerHTML = "🟢";
+}
+
+function redDotW30() {
+  let x30 = document.getElementById("weigh").rows[2].cells;
+  x30[30].innerHTML = "🔴";
+}
+
+
+
+if (w31 == "H") {
+  greenDotW31();
+} else if (w31 == "L") {
+  redDotW31();
+}
+
+function greenDotW31() {
+  let x31 = document.getElementById("weigh").rows[1].cells;
+  x31[31].innerHTML = "🟢";
+}
+
+function redDotW31() {
+  let x31 = document.getElementById("weigh").rows[2].cells;
+  x31[31].innerHTML = "🔴";
+}
+
+
+
+if (w32 == "H") {
+  greenDotW32();
+} else if (w32 == "L") {
+  redDotW32();
+}
+
+function greenDotW32() {
+  let x32 = document.getElementById("weigh").rows[1].cells;
+  x32[32].innerHTML = "🟢";
+}
+
+function redDotW32() {
+  let x32 = document.getElementById("weigh").rows[2].cells;
+  x32[32].innerHTML = "🔴";
+}
+
+
+
+
+if (w33 == "H") {
+  greenDotW33();
+} else if (w33 == "L") {
+  redDotW33();
+}
+
+function greenDotW33() {
+  let x33 = document.getElementById("weigh").rows[1].cells;
+  x33[33].innerHTML = "🟢";
+}
+
+function redDotW33() {
+  let x33 = document.getElementById("weigh").rows[2].cells;
+  x33[33].innerHTML = "🔴";
+}
+
+
+
+if (w34 == "H") {
+  greenDotW34();
+} else if (w34 == "L") {
+  redDotW34();
+}
+
+function greenDotW34() {
+  let x34 = document.getElementById("weigh").rows[1].cells;
+  x34[34].innerHTML = "🟢";
+}
+
+function redDotW34() {
+  let x34 = document.getElementById("weigh").rows[2].cells;
+  x34[34].innerHTML = "🔴";
+}
+
+
+
+if (w35 == "H") {
+  greenDotW35();
+} else if (w35 == "L") {
+  redDotW35();
+}
+
+function greenDotW35() {
+  let x35 = document.getElementById("weigh").rows[1].cells;
+  x35[35].innerHTML = "🟢";
+}
+
+function redDotW35() {
+  let x35 = document.getElementById("weigh").rows[2].cells;
+  x35[35].innerHTML = "🔴";
+}
+
+
+
+if (w36 == "H") {
+  greenDotW36();
+} else if (w36 == "L") {
+  redDotW36();
+}
+
+function greenDotW36() {
+  let x36 = document.getElementById("weigh").rows[1].cells;
+  x36[36].innerHTML = "🟢";
+}
+
+function redDotW36() {
+  let x36 = document.getElementById("weigh").rows[2].cells;
+  x36[36].innerHTML = "🔴";
+}
+
+
+
+if (w37 == "H") {
+  greenDotW37();
+} else if (w37 == "L") {
+  redDotW37();
+}
+
+function greenDotW37() {
+  let x37 = document.getElementById("weigh").rows[1].cells;
+  x37[37].innerHTML = "🟢";
+}
+
+function redDotW37() {
+  let x37 = document.getElementById("weigh").rows[2].cells;
+  x37[37].innerHTML = "🔴";
+}
+
+
+
+if (w38 == "H") {
+  greenDotW38();
+} else if (w38 == "L") {
+  redDotW38();
+}
+
+function greenDotW38() {
+  let x38 = document.getElementById("weigh").rows[1].cells;
+  x38[38].innerHTML = "🟢";
+}
+
+function redDotW38() {
+  let x38 = document.getElementById("weigh").rows[2].cells;
+  x38[38].innerHTML = "🔴";
+}
+
+
+
+if (w39 == "H") {
+  greenDotW39();
+} else if (w39 == "L") {
+  redDotW39();
+}
+
+function greenDotW39() {
+  let x39 = document.getElementById("weigh").rows[1].cells;
+  x39[39].innerHTML = "🟢";
+}
+
+function redDotW39() {
+  let x39 = document.getElementById("weigh").rows[2].cells;
+  x39[39].innerHTML = "🔴";
+}
+
+
+if (w40 == "H") {
+  greenDotW40();
+} else if (w40 == "L") {
+  redDotW40();
+}
+
+function greenDotW40() {
+  let x40 = document.getElementById("weigh").rows[1].cells;
+  x40[40].innerHTML = "🟢";
+}
+
+function redDotW40() {
+  let x40 = document.getElementById("weigh").rows[2].cells;
+  x40[40].innerHTML = "🔴";
+}
+
+
+
+if (w41 == "H") {
+  greenDotW41();
+} else if (w41 == "L") {
+  redDotW41();
+}
+
+function greenDotW41() {
+  let x41 = document.getElementById("weigh").rows[1].cells;
+  x41[41].innerHTML = "🟢";
+}
+
+function redDotW41() {
+  let x41 = document.getElementById("weigh").rows[2].cells;
+  x41[41].innerHTML = "🔴";
+}
+
+
+
+
+if (w42 == "H") {
+  greenDotW42();
+} else if (w42 == "L") {
+  redDotW42();
+}
+
+function greenDotW42() {
+  let x42 = document.getElementById("weigh").rows[1].cells;
+  x42[42].innerHTML = "🟢";
+}
+
+function redDotW42() {
+  let x42 = document.getElementById("weigh").rows[2].cells;
+  x42[42].innerHTML = "🔴";
+}
+
+
+
+
+if (w43 == "H") {
+  greenDotW43();
+} else if (w43 == "L") {
+  redDotW43();
+}
+
+function greenDotW43() {
+  let x43 = document.getElementById("weigh").rows[1].cells;
+  x43[43].innerHTML = "🟢";
+}
+
+function redDotW43() {
+  let x43 = document.getElementById("weigh").rows[2].cells;
+  x43[43].innerHTML = "🔴";
+}
+
+
+
+
+if (w45 == "H") {
+  greenDotW45();
+} else if (w45 == "L") {
+  redDotW45();
+}
+
+function greenDotW45() {
+  let x45 = document.getElementById("weigh").rows[1].cells;
+  x45[45].innerHTML = "🟢";
+}
+
+function redDotW45() {
+  let x45 = document.getElementById("weigh").rows[2].cells;
+  x45[45].innerHTML = "🔴";
+}
+
+
+
+
+if (w46 == "H") {
+  greenDotW46();
+} else if (w46 == "L") {
+  redDotW46();
+}
+
+function greenDotW46() {
+  let x46 = document.getElementById("weigh").rows[1].cells;
+  x46[46].innerHTML = "🟢";
+}
+
+function redDotW46() {
+  let x46 = document.getElementById("weigh").rows[2].cells;
+  x46[46].innerHTML = "🔴";
+}
+
+
+
+
+if (w47 == "H") {
+  greenDotW47();
+} else if (w47 == "L") {
+  redDotW47();
+}
+
+function greenDotW47() {
+  let x47 = document.getElementById("weigh").rows[1].cells;
+  x47[47].innerHTML = "🟢";
+}
+
+function redDotW47() {
+  let x47 = document.getElementById("weigh").rows[2].cells;
+  x47[47].innerHTML = "🔴";
+}
+
+
+
+
+if (w48 == "H") {
+  greenDotW48();
+} else if (w48 == "L") {
+  redDotW48();
+}
+
+function greenDotW48() {
+  let x48 = document.getElementById("weigh").rows[1].cells;
+  x48[48].innerHTML = "🟢";
+}
+
+function redDotW48() {
+  let x48 = document.getElementById("weigh").rows[2].cells;
+  x48[48].innerHTML = "🔴";
+}
+
+
+
+
+if (w49 == "H") {
+  greenDotW49();
+} else if (w49 == "L") {
+  redDotW49();
+}
+
+function greenDotW49() {
+  let x49 = document.getElementById("weigh").rows[1].cells;
+  x49[49].innerHTML = "🟢";
+}
+
+function redDotW49() {
+  let x49 = document.getElementById("weigh").rows[2].cells;
+  x49[49].innerHTML = "🔴";
+}
+
+
+
+
+if (w50 == "H") {
+  greenDotW50();
+} else if (w50 == "L") {
+  redDotW50();
+}
+
+function greenDotW50() {
+  let x50 = document.getElementById("weigh").rows[1].cells;
+  x50[50].innerHTML = "🟢";
+}
+
+function redDotW50() {
+  let x50 = document.getElementById("weigh").rows[2].cells;
+  x50[50].innerHTML = "🔴";
+}
+
 
 
 
