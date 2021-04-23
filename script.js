@@ -3,6 +3,64 @@
 let p1 = document.getElementById("phys").rows[0].cells.item(1).innerHTML;
 let p2 = document.getElementById("phys").rows[0].cells.item(2).innerHTML;
 let p3 = document.getElementById("phys").rows[0].cells.item(3).innerHTML;
+let p4 = document.getElementById("phys").rows[0].cells.item(4).innerHTML;
+let p5 = document.getElementById("phys").rows[0].cells.item(5).innerHTML;
+let p6 = document.getElementById("phys").rows[0].cells.item(6).innerHTML;
+let p7 = document.getElementById("phys").rows[0].cells.item(7).innerHTML;
+let p8 = document.getElementById("phys").rows[0].cells.item(8).innerHTML;
+let p9 = document.getElementById("phys").rows[0].cells.item(9).innerHTML;
+
+
+let p10 = document.getElementById("phys").rows[0].cells.item(10).innerHTML;
+let p11 = document.getElementById("phys").rows[0].cells.item(11).innerHTML;
+let p12 = document.getElementById("phys").rows[0].cells.item(12).innerHTML;
+let p13 = document.getElementById("phys").rows[0].cells.item(13).innerHTML;
+let p14 = document.getElementById("phys").rows[0].cells.item(14).innerHTML;
+let p15 = document.getElementById("phys").rows[0].cells.item(15).innerHTML;
+let p16 = document.getElementById("phys").rows[0].cells.item(16).innerHTML;
+let p17 = document.getElementById("phys").rows[0].cells.item(17).innerHTML;
+let p18 = document.getElementById("phys").rows[0].cells.item(18).innerHTML;
+let p19 = document.getElementById("phys").rows[0].cells.item(19).innerHTML;
+
+let p20 = document.getElementById("phys").rows[0].cells.item(20).innerHTML;
+let p21 = document.getElementById("phys").rows[0].cells.item(21).innerHTML;
+let p22 = document.getElementById("phys").rows[0].cells.item(22).innerHTML;
+let p23 = document.getElementById("phys").rows[0].cells.item(23).innerHTML;
+let p24 = document.getElementById("phys").rows[0].cells.item(24).innerHTML;
+let p25 = document.getElementById("phys").rows[0].cells.item(25).innerHTML;
+let p26 = document.getElementById("phys").rows[0].cells.item(26).innerHTML;
+let p27 = document.getElementById("phys").rows[0].cells.item(27).innerHTML;
+let p28 = document.getElementById("phys").rows[0].cells.item(28).innerHTML;
+let p29 = document.getElementById("phys").rows[0].cells.item(29).innerHTML;
+
+let p30 = document.getElementById("phys").rows[0].cells.item(30).innerHTML;
+let p31 = document.getElementById("phys").rows[0].cells.item(31).innerHTML;
+let p32 = document.getElementById("phys").rows[0].cells.item(32).innerHTML;
+let p33 = document.getElementById("phys").rows[0].cells.item(33).innerHTML;
+let p34 = document.getElementById("phys").rows[0].cells.item(34).innerHTML;
+let p35 = document.getElementById("phys").rows[0].cells.item(35).innerHTML;
+let p36 = document.getElementById("phys").rows[0].cells.item(36).innerHTML;
+let p37 = document.getElementById("phys").rows[0].cells.item(37).innerHTML;
+let p38 = document.getElementById("phys").rows[0].cells.item(38).innerHTML;
+let p39 = document.getElementById("phys").rows[0].cells.item(39).innerHTML;
+
+let p40 = document.getElementById("phys").rows[0].cells.item(40).innerHTML;
+let p41 = document.getElementById("phys").rows[0].cells.item(41).innerHTML;
+let p42 = document.getElementById("phys").rows[0].cells.item(42).innerHTML;
+let p43 = document.getElementById("phys").rows[0].cells.item(43).innerHTML;
+let p44 = document.getElementById("phys").rows[0].cells.item(44).innerHTML;
+let p45 = document.getElementById("phys").rows[0].cells.item(45).innerHTML;
+let p46 = document.getElementById("phys").rows[0].cells.item(46).innerHTML;
+let p47 = document.getElementById("phys").rows[0].cells.item(47).innerHTML;
+let p48 = document.getElementById("phys").rows[0].cells.item(48).innerHTML;
+let p49 = document.getElementById("phys").rows[0].cells.item(49).innerHTML;
+
+let p50 = document.getElementById("phys").rows[0].cells.item(50).innerHTML;
+let p51 = document.getElementById("phys").rows[0].cells.item(51).innerHTML;
+let p52 = document.getElementById("phys").rows[0].cells.item(52).innerHTML;
+
+
+
 
 
 if (p1 == "H") {
@@ -55,6 +113,912 @@ if (p3 == "H") {
     let x3 = document.getElementById("phys").rows[2].cells;
     x3[3].innerHTML = "🔴";
   }
+
+
+
+
+
+  if (p4 == "H") {
+    greenDotP4();
+  } else if (p4 == "L") {
+    redDotP4();
+  }
+  
+  function greenDotP4() {
+    let x4 = document.getElementById("phys").rows[1].cells;
+    x4[4].innerHTML = "🟢";
+  }
+  
+  function redDotP4() {
+    let x4 = document.getElementById("phys").rows[2].cells;
+    x4[4].innerHTML = "🔴";
+  }
+
+  
+if (p5 == "H") {
+    greenDotP5();
+  } else if (p5 == "L") {
+    redDotP5();
+  }
+  
+  function greenDotP5() {
+    let x5 = document.getElementById("phys").rows[1].cells;
+    x5[5].innerHTML = "🟢";
+  }
+  
+  function redDotP5() {
+    let x5 = document.getElementById("phys").rows[2].cells;
+    x5[5].innerHTML = "🔴";
+  }
+
+
+
+
+
+    
+if (p6 == "H") {
+    greenDotP6();
+  } else if (p6 == "L") {
+    redDotP6();
+  }
+  
+  function greenDotP6() {
+    let x6 = document.getElementById("phys").rows[1].cells;
+    x6[6].innerHTML = "🟢";
+  }
+  
+  function redDotP6() {
+    let x6 = document.getElementById("phys").rows[2].cells;
+    x6[6].innerHTML = "🔴";
+  }
+
+
+
+
+  
+if (p7 == "H") {
+  greenDotP7();
+} else if (p7 == "L") {
+  redDotP7();
+}
+
+function greenDotP7() {
+  let x7 = document.getElementById("phys").rows[1].cells;
+  x7[7].innerHTML = "🟢";
+}
+
+function redDotP7() {
+  let x7 = document.getElementById("phys").rows[2].cells;
+  x7[7].innerHTML = "🔴";
+}
+
+
+if (p8 == "H") {
+  greenDotP8();
+} else if (p8 == "L") {
+  redDotP8();
+}
+
+function greenDotP8() {
+  let x8 = document.getElementById("phys").rows[1].cells;
+  x8[8].innerHTML = "🟢";
+}
+
+function redDotP8() {
+  let x8 = document.getElementById("phys").rows[2].cells;
+  x8[8].innerHTML = "🔴";
+}
+
+
+
+
+
+if (p9 == "H") {
+  greenDotP9();
+} else if (p9 == "L") {
+  redDotP9();
+}
+
+function greenDotP9() {
+  let x9 = document.getElementById("phys").rows[1].cells;
+  x9[9].innerHTML = "🟢";
+}
+
+function redDotP8() {
+  let x8 = document.getElementById("phys").rows[2].cells;
+  x8[8].innerHTML = "🔴";
+}
+
+
+  
+if (p10 == "H") {
+  greenDotP10();
+} else if (p10 == "L") {
+  redDotP10();
+}
+
+function greenDotP10() {
+  let x10 = document.getElementById("phys").rows[1].cells;
+  x10[10].innerHTML = "🟢";
+}
+
+function redDotP10() {
+  let x10 = document.getElementById("phys").rows[2].cells;
+  x10[10].innerHTML = "🔴";
+}
+
+
+
+if (p11 == "H") {
+  greenDotP11();
+} else if (p11 == "L") {
+  redDotP11();
+}
+
+function greenDotP11() {
+  let x11 = document.getElementById("phys").rows[1].cells;
+  x11[11].innerHTML = "🟢";
+}
+
+function redDotP11() {
+  let x11 = document.getElementById("phys").rows[2].cells;
+  x11[11].innerHTML = "🔴";
+}
+
+
+
+
+if (p12 == "H") {
+  greenDotP12();
+} else if (p12 == "L") {
+  redDotP12();
+}
+
+function greenDotP12() {
+  let x12 = document.getElementById("phys").rows[1].cells;
+  x12[12].innerHTML = "🟢";
+}
+
+function redDotP12() {
+  let x12 = document.getElementById("phys").rows[2].cells;
+  x12[12].innerHTML = "🔴";
+}
+
+
+
+
+if (p13 == "H") {
+  greenDotP13();
+} else if (p13 == "L") {
+  redDotP13();
+}
+
+function greenDotP13() {
+  let x13 = document.getElementById("phys").rows[1].cells;
+  x13[13].innerHTML = "🟢";
+}
+
+function redDotP13() {
+  let x13 = document.getElementById("phys").rows[2].cells;
+  x13[13].innerHTML = "🔴";
+}
+
+
+
+
+if (p14 == "H") {
+  greenDotP14();
+} else if (p14 == "L") {
+  redDotP14();
+}
+
+function greenDotP14() {
+  let x14 = document.getElementById("phys").rows[1].cells;
+  x14[14].innerHTML = "🟢";
+}
+
+function redDotP14() {
+  let x14 = document.getElementById("phys").rows[2].cells;
+  x14[14].innerHTML = "🔴";
+}
+
+
+
+if (p15 == "H") {
+  greenDotP15();
+} else if (p15 == "L") {
+  redDotP15();
+}
+
+function greenDotP15() {
+  let x15 = document.getElementById("phys").rows[1].cells;
+  x15[15].innerHTML = "🟢";
+}
+
+function redDotP15() {
+  let x15 = document.getElementById("phys").rows[2].cells;
+  x15[15].innerHTML = "🔴";
+}
+
+
+
+
+if (p16 == "H") {
+  greenDotP16();
+} else if (p16 == "L") {
+  redDotP16();
+}
+
+function greenDotP16() {
+  let x16 = document.getElementById("phys").rows[1].cells;
+  x16[16].innerHTML = "🟢";
+}
+
+function redDotP16() {
+  let x16 = document.getElementById("phys").rows[2].cells;
+  x16[16].innerHTML = "🔴";
+}
+
+
+
+
+if (p17 == "H") {
+  greenDotP17();
+} else if (p17 == "L") {
+  redDotP17();
+}
+
+function greenDotP17() {
+  let x17 = document.getElementById("phys").rows[1].cells;
+  x17[17].innerHTML = "🟢";
+}
+
+function redDotP17() {
+  let x17 = document.getElementById("phys").rows[2].cells;
+  x17[17].innerHTML = "🔴";
+}
+
+
+
+if (p18 == "H") {
+  greenDotP18();
+} else if (p18 == "L") {
+  redDotP18();
+}
+
+function greenDotP18() {
+  let x18 = document.getElementById("phys").rows[1].cells;
+  x18[18].innerHTML = "🟢";
+}
+
+function redDotP18() {
+  let x18 = document.getElementById("phys").rows[2].cells;
+  x18[18].innerHTML = "🔴";
+}
+
+
+
+if (p19 == "H") {
+  greenDotP19();
+} else if (p19 == "L") {
+  redDotP19();
+}
+
+function greenDotP19() {
+  let x19 = document.getElementById("phys").rows[1].cells;
+  x19[19].innerHTML = "🟢";
+}
+
+function redDotP19() {
+  let x19 = document.getElementById("phys").rows[2].cells;
+  x19[19].innerHTML = "🔴";
+}
+
+
+
+if (p20 == "H") {
+  greenDotP20();
+} else if (p20 == "L") {
+  redDotP20();
+}
+
+function greenDotP20() {
+  let x20 = document.getElementById("phys").rows[1].cells;
+  x20[20].innerHTML = "🟢";
+}
+
+function redDotP20() {
+  let x20 = document.getElementById("phys").rows[2].cells;
+  x20[20].innerHTML = "🔴";
+}
+
+
+
+if (p21 == "H") {
+  greenDotP21();
+} else if (p21 == "L") {
+  redDotP21();
+}
+
+function greenDotP21() {
+  let x21 = document.getElementById("phys").rows[1].cells;
+  x21[21].innerHTML = "🟢";
+}
+
+function redDotP21() {
+  let x21 = document.getElementById("phys").rows[2].cells;
+  x21[21].innerHTML = "🔴";
+}
+
+
+
+
+  
+if (p22 == "H") {
+  greenDotP222();
+} else if (p22 == "L") {
+  redDotP22();
+}
+
+function greenDotP22() {
+  let x22 = document.getElementById("phys").rows[1].cells;
+  x22[22].innerHTML = "🟢";
+}
+
+function redDotP22() {
+  let x22 = document.getElementById("phys").rows[2].cells;
+  x22[22].innerHTML = "🔴";
+}
+
+
+
+
+if (p23 == "H") {
+  greenDotP23();
+} else if (p23 == "L") {
+  redDotP23();
+}
+
+function greenDotP23() {
+  let x23 = document.getElementById("phys").rows[1].cells;
+  x23[23].innerHTML = "🟢";
+}
+
+function redDotP23() {
+  let x23 = document.getElementById("phys").rows[2].cells;
+  x23[23].innerHTML = "🔴";
+}
+
+
+
+if (p24 == "H") {
+  greenDotP24();
+} else if (p24 == "L") {
+  redDotP24();
+}
+
+function greenDotP24() {
+  let x24 = document.getElementById("phys").rows[1].cells;
+  x24[24].innerHTML = "🟢";
+}
+
+function redDotP24() {
+  let x24 = document.getElementById("phys").rows[2].cells;
+  x24[24].innerHTML = "🔴";
+}
+
+
+
+if (p25 == "H") {
+  greenDotP25();
+} else if (p25 == "L") {
+  redDotP25();
+}
+
+function greenDotP25() {
+  let x25 = document.getElementById("phys").rows[1].cells;
+  x25[25].innerHTML = "🟢";
+}
+
+function redDotP25() {
+  let x25 = document.getElementById("phys").rows[2].cells;
+  x25[25].innerHTML = "🔴";
+}
+
+
+
+
+if (p26 == "H") {
+  greenDotP26();
+} else if (p26 == "L") {
+  redDotP26();
+}
+
+function greenDotP26() {
+  let x26 = document.getElementById("phys").rows[1].cells;
+  x26[26].innerHTML = "🟢";
+}
+
+function redDotP26() {
+  let x26 = document.getElementById("phys").rows[2].cells;
+  x26[26].innerHTML = "🔴";
+}
+
+
+
+
+if (p27 == "H") {
+  greenDotP27();
+} else if (p27 == "L") {
+  redDotP27();
+}
+
+function greenDotP27() {
+  let x27 = document.getElementById("phys").rows[1].cells;
+  x27[27].innerHTML = "🟢";
+}
+
+function redDotP27() {
+  let x27 = document.getElementById("phys").rows[2].cells;
+  x27[27].innerHTML = "🔴";
+}
+
+
+
+
+if (p28 == "H") {
+  greenDotP28();
+} else if (p28 == "L") {
+  redDotP28();
+}
+
+function greenDotP28() {
+  let x28 = document.getElementById("phys").rows[1].cells;
+  x28[28].innerHTML = "🟢";
+}
+
+function redDotP28() {
+  let x28 = document.getElementById("phys").rows[2].cells;
+  x28[28].innerHTML = "🔴";
+}
+
+
+
+
+if (p29 == "H") {
+  greenDotP29();
+} else if (p29 == "L") {
+  redDotP29();
+}
+
+function greenDotP29() {
+  let x29 = document.getElementById("phys").rows[1].cells;
+  x29[29].innerHTML = "🟢";
+}
+
+function redDotP29() {
+  let x29 = document.getElementById("phys").rows[2].cells;
+  x29[29].innerHTML = "🔴";
+}
+
+
+
+
+if (p30 == "H") {
+  greenDotP30();
+} else if (p30 == "L") {
+  redDotP30();
+}
+
+function greenDotP30() {
+  let x30 = document.getElementById("phys").rows[1].cells;
+  x30[30].innerHTML = "🟢";
+}
+
+function redDotP30() {
+  let x30 = document.getElementById("phys").rows[2].cells;
+  x30[30].innerHTML = "🔴";
+}
+
+
+
+
+if (p31 == "H") {
+  greenDotP31();
+} else if (p31 == "L") {
+  redDotP31();
+}
+
+function greenDotP31() {
+  let x31 = document.getElementById("phys").rows[1].cells;
+  x31[31].innerHTML = "🟢";
+}
+
+function redDotP31() {
+  let x31 = document.getElementById("phys").rows[2].cells;
+  x31[31].innerHTML = "🔴";
+}
+
+
+
+
+if (p32 == "H") {
+  greenDotP32();
+} else if (p32 == "L") {
+  redDotP32();
+}
+
+function greenDotP32() {
+  let x32 = document.getElementById("phys").rows[1].cells;
+  x32[32].innerHTML = "🟢";
+}
+
+function redDotP32() {
+  let x32 = document.getElementById("phys").rows[2].cells;
+  x32[32].innerHTML = "🔴";
+}
+
+
+
+
+
+if (p33 == "H") {
+  greenDotP33();
+} else if (p33 == "L") {
+  redDotP33();
+}
+
+function greenDotP33() {
+  let x33 = document.getElementById("phys").rows[1].cells;
+  x33[33].innerHTML = "🟢";
+}
+
+function redDotP33() {
+  let x33 = document.getElementById("phys").rows[2].cells;
+  x33[33].innerHTML = "🔴";
+}
+
+
+
+
+
+if (p34 == "H") {
+  greenDotP34();
+} else if (p34 == "L") {
+  redDotP34();
+}
+
+function greenDotP34() {
+  let x34 = document.getElementById("phys").rows[1].cells;
+  x34[34].innerHTML = "🟢";
+}
+
+function redDotP34() {
+  let x34 = document.getElementById("phys").rows[2].cells;
+  x34[34].innerHTML = "🔴";
+}
+
+
+
+
+
+if (p35 == "H") {
+  greenDotP35();
+} else if (p35 == "L") {
+  redDotP35();
+}
+
+function greenDotP35() {
+  let x35 = document.getElementById("phys").rows[1].cells;
+  x35[35].innerHTML = "🟢";
+}
+
+function redDotP35() {
+  let x35 = document.getElementById("phys").rows[2].cells;
+  x35[35].innerHTML = "🔴";
+}
+
+
+
+
+if (p36 == "H") {
+  greenDotP36();
+} else if (p36 == "L") {
+  redDotP36();
+}
+
+function greenDotP36() {
+  let x36 = document.getElementById("phys").rows[1].cells;
+  x36[36].innerHTML = "🟢";
+}
+
+function redDotP36() {
+  let x36 = document.getElementById("phys").rows[2].cells;
+  x36[36].innerHTML = "🔴";
+}
+
+
+
+
+
+if (p37 == "H") {
+  greenDotP37();
+} else if (p37 == "L") {
+  redDotP37();
+}
+
+function greenDotP37() {
+  let x37 = document.getElementById("phys").rows[1].cells;
+  x37[37].innerHTML = "🟢";
+}
+
+function redDotP37() {
+  let x37 = document.getElementById("phys").rows[2].cells;
+  x37[37].innerHTML = "🔴";
+}
+
+
+
+
+if (p38 == "H") {
+  greenDotP38();
+} else if (p38 == "L") {
+  redDotP38();
+}
+
+function greenDotP38() {
+  let x38 = document.getElementById("phys").rows[1].cells;
+  x38[38].innerHTML = "🟢";
+}
+
+function redDotP38() {
+  let x38 = document.getElementById("phys").rows[2].cells;
+  x38[38].innerHTML = "🔴";
+}
+
+
+
+
+if (p39 == "H") {
+  greenDotP39();
+} else if (p39 == "L") {
+  redDotP39();
+}
+
+function greenDotP39() {
+  let x39 = document.getElementById("phys").rows[1].cells;
+  x39[39].innerHTML = "🟢";
+}
+
+function redDotP39() {
+  let x39 = document.getElementById("phys").rows[2].cells;
+  x39[39].innerHTML = "🔴";
+}
+
+
+
+if (p40 == "H") {
+  greenDotP40();
+} else if (p40 == "L") {
+  redDotP40();
+}
+
+function greenDotP40() {
+  let x40 = document.getElementById("phys").rows[1].cells;
+  x40[40].innerHTML = "🟢";
+}
+
+function redDotP40() {
+  let x40 = document.getElementById("phys").rows[2].cells;
+  x40[40].innerHTML = "🔴";
+}
+
+
+
+
+if (p41 == "H") {
+  greenDotP41();
+} else if (p41 == "L") {
+  redDotP41();
+}
+
+function greenDotP41() {
+  let x41 = document.getElementById("phys").rows[1].cells;
+  x41[41].innerHTML = "🟢";
+}
+
+function redDotP41() {
+  let x41 = document.getElementById("phys").rows[2].cells;
+  x41[41].innerHTML = "🔴";
+}
+
+
+
+
+if (p42== "H") {
+  greenDotP42();
+} else if (p42 == "L") {
+  redDotP42();
+}
+
+function greenDotP42() {
+  let x42 = document.getElementById("phys").rows[1].cells;
+  x42[42].innerHTML = "🟢";
+}
+
+function redDotP42() {
+  let x42 = document.getElementById("phys").rows[2].cells;
+  x42[42].innerHTML = "🔴";
+}
+
+
+
+
+if (p43 == "H") {
+  greenDotP43();
+} else if (p43 == "L") {
+  redDotP43();
+}
+
+function greenDotP43() {
+  let x43 = document.getElementById("phys").rows[1].cells;
+  x43[43].innerHTML = "🟢";
+}
+
+function redDotP43() {
+  let x43 = document.getElementById("phys").rows[2].cells;
+  x43[43].innerHTML = "🔴";
+}
+
+
+
+if (p45 == "H") {
+  greenDotP45();
+} else if (p45 == "L") {
+  redDotP45();
+}
+
+function greenDotP45() {
+  let x45 = document.getElementById("phys").rows[1].cells;
+  x45[45].innerHTML = "🟢";
+}
+
+function redDotP45() {
+  let x45 = document.getElementById("phys").rows[2].cells;
+  x45[45].innerHTML = "🔴";
+}
+
+
+
+if (p46 == "H") {
+  greenDotP46();
+} else if (p46 == "L") {
+  redDotP46();
+}
+
+function greenDotP46() {
+  let x46 = document.getElementById("phys").rows[1].cells;
+  x46[46].innerHTML = "🟢";
+}
+
+function redDotP46() {
+  let x46 = document.getElementById("phys").rows[2].cells;
+  x46[46].innerHTML = "🔴";
+}
+
+
+
+if (p47 == "H") {
+  greenDotP47();
+} else if (p47 == "L") {
+  redDotP47();
+}
+
+function greenDotP47() {
+  let x47 = document.getElementById("phys").rows[1].cells;
+  x47[47].innerHTML = "🟢";
+}
+
+function redDotP47() {
+  let x47 = document.getElementById("phys").rows[2].cells;
+  x47[47].innerHTML = "🔴";
+}
+
+
+
+if (p48 == "H") {
+  greenDotP48();
+} else if (p48 == "L") {
+  redDotP48();
+}
+
+function greenDotP48() {
+  let x48 = document.getElementById("phys").rows[1].cells;
+  x48[48].innerHTML = "🟢";
+}
+
+function redDotP48() {
+  let x48 = document.getElementById("phys").rows[2].cells;
+  x48[48].innerHTML = "🔴";
+}
+
+
+
+
+if (p49 == "H") {
+  greenDotP49();
+} else if (p49 == "L") {
+  redDotP49();
+}
+
+function greenDotP49() {
+  let x49 = document.getElementById("phys").rows[1].cells;
+  x49[49].innerHTML = "🟢";
+}
+
+function redDotP49() {
+  let x49 = document.getElementById("phys").rows[2].cells;
+  x49[49].innerHTML = "🔴";
+}
+
+
+
+
+if (p50 == "H") {
+  greenDotP50();
+} else if (p50 == "L") {
+  redDotP50();
+}
+
+function greenDotP50() {
+  let x50 = document.getElementById("phys").rows[1].cells;
+  x50[50].innerHTML = "🟢";
+}
+
+function redDotP50() {
+  let x50 = document.getElementById("phys").rows[2].cells;
+  x50[50].innerHTML = "🔴";
+}
+
+
+
+if (p51 == "H") {
+  greenDotP51();
+} else if (p51 == "L") {
+  redDotP51();
+}
+
+function greenDotP51() {
+  let x51 = document.getElementById("phys").rows[1].cells;
+  x51[51].innerHTML = "🟢";
+}
+
+function redDotP51() {
+  let x51 = document.getElementById("phys").rows[2].cells;
+  x51[51].innerHTML = "🔴";
+}
+
+
+
+
+if (p52 == "H") {
+  greenDotP52();
+} else if (p52 == "L") {
+  redDotP52();
+}
+
+function greenDotP52() {
+  let x52 = document.getElementById("phys").rows[1].cells;
+  x52[52].innerHTML = "🟢";
+}
+
+function redDotP52() {
+  let x52 = document.getElementById("phys").rows[2].cells;
+  x52[52].innerHTML = "🔴";
+}
+
+
+
 
 
 

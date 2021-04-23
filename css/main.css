@@ -62,7 +62,8 @@ main .main-container #noom_data td {
   background: white;
   color: #ed9b33;
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding-top: .5em;
+  padding-bottom: 0em;
 }
 
 main .main-container #noom_data td p {
@@ -70,20 +71,11 @@ main .main-container #noom_data td p {
   color: #686868;
 }
 
-main .main-container #noom_data td button {
-  background-color: #ed9b33;
-  border: none;
-  width: 70%;
-  color: #F8f5f2;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  padding: .5em 0;
-  border-radius: .5em;
-  font-size: .6rem;
-  cursor: pointer;
+main .main-container #avg_cal {
+  padding: 0em 9em;
 }
 
-main #noom_data th {
+main .main-container #noom_data th {
   background: #006C5B;
   /*   border-color: #f4f4f4; */
   width: 20rem;
@@ -91,8 +83,23 @@ main #noom_data th {
   /*   border: 2px solid #f4f4f4; */
   text-align: center;
   font-size: 0.8rem;
-  padding: .6rem;
+  padding: .6em .5em;
   color: #F8f5f2;
+}
+
+main .main-container #daily_cal {
+  border-radius: .5em;
+}
+
+main .main-container #daily_cal th {
+  height: .5em;
+  font-size: .7rem;
+}
+
+main .main-container #daily_cal td {
+  height: .5em;
+  font-size: .7rem;
+  padding: .5em;
 }
 
 section.description {
