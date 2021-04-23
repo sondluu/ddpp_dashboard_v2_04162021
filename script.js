@@ -872,6 +872,25 @@ function redDotP43() {
 
 
 
+
+if (p44 == "H") {
+  greenDotP44();
+} else if (p44 == "L") {
+  redDotP44();
+}
+
+function greenDotP44() {
+  let x44 = document.getElementById("phys").rows[1].cells;
+  x44[44].innerHTML = "🟢";
+}
+
+function redDotP44() {
+  let x44 = document.getElementById("phys").rows[2].cells;
+  x44[44].innerHTML = "🔴";
+}
+
+
+
 if (p45 == "H") {
   greenDotP45();
 } else if (p45 == "L") {
