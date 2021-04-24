@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
     <script src="/script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 
@@ -25,13 +26,23 @@
                     
                     <ul class="ddpp-info">
                         <li><span>dDPP Enrollment Date:</span> 01/01/9999</li>
-                        <li><span>Noom Program Enrollment Date:</span> 01/01/000</li>
+                        <li><span>Noom Program Enrollment Date:</span> 01/01/10000</li>
                     </ul>
                 </div>
 
+               
+                
+                <img src="https://s2.svgbox.net/materialui.svg?ic=assistant_photo&color=ed9b33" width="28" height="28">
+
                 <div class="guide">
-                  <p>Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.</p>
+                  
+                  <p id="ShowText"></p>
+                  
                 </div>
+
+                <!-- <span>
+                  <img src="https://s2.svgbox.net/materialui.svg?ic=assistant_photo&color=ed9b33" width="18" height="18">
+                </span> -->
 
 
             </div>
@@ -42,20 +53,22 @@
             
             <div class="dashboard-overview">
                 <h2>Dashboard Overview</h2>
-                <p><span>Noom dDPP Activity Dashboard:</span> An overview of patient weekly engagement in health behavior change activities via the digital diabetes prevention (Noom) Noom app and using activity trackers. Patient self-reported data includes Physical Activities, Digital Learning, Weigh-ins & In-app Communication (with personal coach & support group). 
+                <p><span>Noom dDPP Activity Dashboard:</span> An overview of patient weekly engagement in health behavior change activities via the digital diabetes prevention (Noom) app, using activity trackers. Patient self-reported data includes Physical Activities, Digital Learning, Weigh-ins & In-app Communication (with personal coach & support group). 
                 </p>
                 <p><span>Noom:</span> a diabetes prevention & weight loss behavior mobile application based on the CDC’s evidence-based diabetes prevention program (DPP) curriculum. This 52-week program allows users to log their meals, physical activities, weight, and provides daily articles covering heath behavior topics while connecting them with a support group, and a behavior-change coach</p> 
                 </p>
-                <p id="note1">Notes: this dashboard is part of an IRB-approved research study. Not all of your patients will have an active dashboard in the EHR</p>
+                <p id="note1">*This dashboard is part of an IRB-approved research study. Not all your patients will have an active dashboard in EHR.</p>
             </div>
 
             <div class="instructions">
                 <h2>How to Navigate Dashboard</h2>
                 <p id="note2">Hover over the text in the following definitions to see their associated dashboard sections.</p>
-                <p><span>Patient’s Self-logged Noom Activity Data:</span> patient’s self-reported activity data & health indicators as part of dDPP program, including those on Noom app</p>
-                <p><span>Icon:</span> Click-on icon for historical data</p>
-                <p><span>Weekly Engagement Progress:</span> weekly High/Low engagement across 4 Noom features over 52 weeks</p>
-                <p><span>Current Week’s Engagement Level:</span> patient’s overall engagement score for the current week.</p>
+                <p class="element hover"><span>Patient’s Self-logged Noom Activity Data:</span> patient’s self-reported activity data & health indicators part of dDPP program, including those on Noom app</p>
+                <p class="element1 hover1"><span>
+                  <img class="alert" src="https://s2.svgbox.net/hero-solid.svg?ic=table&color=006C5B" width="19" height="19">
+                </span> Click-on icon for historical data</p>
+                <p class="element2 hover2"><span>Weekly Engagement Progress:</span> High/Low engagement across 4 Noom features over 52 weeks</p>
+                <p class="element3 hover3"><span>Current Week’s Engagement Level:</span> patient’s overall engagement score for the current week.</p>
             </div>
         </section>
 
@@ -63,7 +76,7 @@
         
         <main>
 
-            <div class="main-container">
+            <div class="main-container hover">
             <h2>Patient’s Self-logged Noom Activity Data</h2>
 
             <table id="noom_data">
@@ -76,11 +89,7 @@
                   <th>30-day Weight ▲</th>
                 </tr>
                 <tr>
-                  <td><span id="avg_cal">5879</span>
-                    <!-- <p>
-                    <button class="button">Show daily calorie log</button>
-                  </p> -->
-
+                  <td class="hover1"><span id="avg_cal">5879</span>
                   
                   <popup-notify>
 
@@ -149,7 +158,7 @@
 
 
         <section class="engagement">
-            <div class="engagement-container">
+            <div class="engagement-container hover2">
                 <h2>Weekly Engagement Progress</h2>
                 <div class="physical-activity">
                     <h5><span>PHYSICAL ACTIVITIES</span> -- combines step counts logged via activity tracking device & self-reported exercise minutes</h5>
@@ -1073,7 +1082,7 @@
    -->
         <section class="results">
 
-          <div class="results-container">
+          <div class="results-container hover3">
             <h2>Current Week's Engagement Level</h2>
 
             <div class="results-info">
@@ -1088,13 +1097,13 @@
               </table>
 
               <ul class="ddpp-info">
-                <li><span></span>Physical Activities</li>
-                <li><span></span>Weigh-ins</li>
+                <li><span id="p_score">H</span><span id="p_dot"></span>Physical Activities</li>
+                <li><span id="w_score">H</span><span id="w_dot"></span>Weigh-ins</li>
               </ul>
 
               <ul class="ddpp-info">
-                <li><span></span>Digital Learning</li>
-                <li><span></span>Comunication</li>
+                <li><span id="l_score">H</span><span id="l_dot"></span>Digital Learning</li>
+                <li><span id="c_score">L</span><span id="c_dot"></span>Communication</li>
               </ul>
 
 
@@ -1104,8 +1113,11 @@
                   <tr>
                     <th>Engagement Level</th>
                   </tr>
+                  <tr id="overall_score">
+                    <td>H</td>
+                  </tr>
                   <tr>
-                    <td>Low</td>
+                    <td></td>
                   </tr>
                 </table>
 
@@ -1247,6 +1259,10 @@
       window.customElements.define('popup-notify', PopupNotify)
           
           </script>
+
+          
+
+
 
 
 

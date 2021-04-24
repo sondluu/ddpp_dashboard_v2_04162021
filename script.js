@@ -4067,3 +4067,187 @@ if (c9 == "H") {
   }
 
 
+
+
+  let score = document.getElementById("overall_engagement").rows[1].cells.item(0).innerHTML;
+
+  if (score == "H") {
+    high();
+  } else if (score == "L") {
+    low();
+  }
+  
+  function high() {
+    let s = document.getElementById("overall_engagement").rows[2].cells;
+    s[0].innerHTML = "HIGH";
+  }
+  
+  function low() {
+    let s = document.getElementById("overall_engagement").rows[2].cells;
+    s[0].innerHTML = "LOW";
+  }
+
+
+
+  let p_score = document.getElementById("p_score").innerHTML;
+
+  if (p_score == "H") {
+    greenP();
+  } else if (p_score == "L") {
+    redP();
+  }
+  
+  function greenP() {
+    let p = document.getElementById("p_dot");
+    p.innerHTML = "🟢";
+  }
+  
+  function redP() {
+    let p = document.getElementById("p_dot");
+    p.innerHTML = "🔴";
+  }
+
+
+  let w_score = document.getElementById("w_score").innerHTML;
+
+  if (w_score == "H") {
+    greenW();
+  } else if (w_score == "L") {
+    redW();
+  }
+  
+  function greenW() {
+    let w = document.getElementById("w_dot");
+    w.innerHTML = "🟢";
+  }
+  
+  function redW() {
+    let w = document.getElementById("w_dot");
+    w.innerHTML = "🔴";
+  }
+
+
+
+  
+  let l_score = document.getElementById("l_score").innerHTML;
+
+  if (l_score == "H") {
+    greenL();
+  } else if (l_score == "L") {
+    redL();
+  }
+  
+  function greenL() {
+    let l = document.getElementById("l_dot");
+    l.innerHTML = "🟢";
+  }
+  
+  function redL() {
+    let l = document.getElementById("l_dot");
+    l.innerHTML = "🔴";
+  }
+
+
+
+  
+  let c_score = document.getElementById("c_score").innerHTML;
+
+  if (c_score == "H") {
+    greenC();
+  } else if (c_score == "L") {
+    redC();
+  }
+  
+  function greenC() {
+    let c = document.getElementById("c_dot");
+    c.innerHTML = "🟢";
+  }
+  
+  function redC() {
+    let c = document.getElementById("c_dot");
+    c.innerHTML = "🔴";
+  }
+
+
+
+
+
+
+  var textarray = [
+    "Consider using the information in this dashboard to have a targeted conversation with your patient about diabetes prevention.",
+
+     "Consider using the information in this dashboard to have a targeted conversation with your patient about healthy eating, exercise, or weight loss, based on their performance in the Noom app.",
+
+     "This dashboard can help you target areas for conversation, education, and support for your patients who are at risk for diabetes.",
+
+     "Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.",
+
+     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like more information on these programs, please click here: https://www.cdc.gov/diabetes/prevention/index.html",
+
+     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like additional diabetes prevention resources to share with your patients, please click here: ttps://www.cdc.gov/diabetes/prevention/index.html"  // No comma after last entry
+ ];
+
+ function RndText() {
+ var rannum= Math.floor(Math.random()*textarray.length);
+ document.getElementById('ShowText').innerHTML=textarray[rannum];
+ }
+ 
+ onload = function() { RndText(); }
+
+ var inter = setInterval(function() { RndText(); }, 7000);
+
+
+
+
+
+ $(document).ready(function(){
+  $(".element").hover(function(){
+    $(".hover").css({
+      "border": "solid 3px #F4364C", "border-radius": .4 + "em"});
+    }, function(){
+    $(".hover").css("border", "solid 3px #f8f5f2");
+  });
+});
+
+
+
+
+$(document).ready(function(){
+  $(".element1").hover(function(){
+    $(".hover1").css({"border": "solid 3px #F4364C"});
+    }, function(){
+    $(".hover1").css("border", "solid 3px rgba(255, 99, 71, 0)");
+  });
+});
+
+
+
+$(document).ready(function(){
+  $(".element2").hover(function(){
+    $(".hover2").css({"border": "solid 3px #F4364C", "border-radius": .4 + "em"});
+    }, function(){
+    $(".hover2").css("border", "solid 3px #f8f5f2");
+  });
+});
+
+
+
+$(document).ready(function(){
+  $(".element3").hover(function(){
+    $(".hover3").css({
+      "border": "solid 3px #F4364C", "border-radius": .4 + "em"});
+    }, function(){
+    $(".hover3").css("border", "solid 3px #f8f5f2");
+  });
+});
+
+
+
+
+
+
+
+
+
+
+  

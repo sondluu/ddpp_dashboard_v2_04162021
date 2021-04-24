@@ -36,8 +36,9 @@ main {
         display: block;
         background-color: white;
         margin: 0em .5em 0em .5em;
-        padding: .3em .1em .02em .1em;
+        padding: em .1em .02em .1em;
         border-radius: .4em .4em .4em .4em;
+        
     
 
     h2 {
@@ -49,7 +50,7 @@ main {
     #noom_data {
         border-collapse: collapse;
         width: 97.5%;
-        border: 2px solid;
+        border: 3px solid;
         // verticle-align: top;
         border-radius: 0.5em;
         border-collapse: collapse;
@@ -77,22 +78,6 @@ main {
             font-size: 0.6rem;
             color: #686868;
         }
-
-     
-
-        // button {
-        //     background-color: #ed9b33;
-        //     border: none;
-        //     width: 70%;
-        //     color: #F8f5f2;
-        //     font-family: 'Roboto', sans-serif;
-        //     font-weight: bold;
-        //     padding: .5em 0;
-        //     border-radius: .5em;
-        //     font-size: .6rem;
-        //     cursor: pointer;
-
-        // }
     }
 
     #avg_cal {
@@ -195,7 +180,7 @@ section.engagement {
     .engagement-container {
         display: block;
         background-color: white;
-        margin: .5em .5em 0em .5em;
+        margin: .3em .5em 0em .5em;
         padding: 0em .5em .5em .5em;
         border-radius: .4em;
         border-color: none;
@@ -481,29 +466,33 @@ header {
         // left: 5em;
     }
 
+    img {
+        position: relative;
+        margin-top: 1em;
+    }
+
     .guide {
         display: block;
         background-color:#f8f5f2;
-        margin: 1em 3em 1em 1em;
-        padding: .2em 1.5em 0em 1.5em;
+        margin: 1em 3em 1em .3em;
+        padding: .01em 1.5em 0em 1.5em;
         border-radius: .4em;
         width: 40%;
+        height: 5em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        
 
         p {
-            color: #006c5b;
+            color: #F4364C;
             font-size: .8rem;
             font-weight: bold;
             line-height: 1.5em;
+            position: flex;
         }
     }
 }
 
-
-// .patientname {
-//     font-size: 30rem;
-//     display: block;
-//     position: relative;
-// }
 
 
 
@@ -516,7 +505,7 @@ header {
     .results-container {
         display: block;
         background-color: white;
-        margin: .5em .5em 0em .5em;
+        margin: .3em .5em 0em .5em;
         padding: 0em .5em .7em .5em;
         border-radius: .4em;
         border-color: none;
@@ -526,7 +515,7 @@ header {
             display: block;
             background: #f8f5f2;
             margin: 0em .5em 0em .5em;
-            padding: 1em 1em .3em .5em;
+            padding: 1em 1em .1em .5em;
             border-radius: .4em .4em .4em .4em;
             border-color: none;
             font-weight: bold;
@@ -539,6 +528,7 @@ header {
             padding: 1em 0.5em 0 0.5em;
             margin-top: 0.2em;
         }
+
 
         #week_number {
             border-collapse: collapse;
@@ -576,6 +566,22 @@ header {
             color: #F8f5f2;
           }
 
+          #p_score {
+            display: none;
+          }
+
+          #w_score {
+              display: none;
+          }
+
+          #l_score {
+              display: none;
+          }
+
+          #c_score {
+              display: none;
+          }
+
 
           ul {
             display: flex;
@@ -585,7 +591,7 @@ header {
             font-size: .5rem;
 
             li {
-                padding: 0.5em 1rem .5em 0;
+                padding: 0.5em 1em .5em 0;
                 font-size: 1.2em;
             }
         }
@@ -630,32 +636,59 @@ header {
             border-radius: 0.5em;
             border-collapse: collapse;
             overflow: hidden;
-            background: #006C5B;
             margin: .7em 1em 1em 3.5em;
+            background: #006C5B;
+        
           }
           
           #overall_engagement td {
-            // width: 20rem;
-            // height: 1rem;
-          /*   border: 2px solid #f4f4f4; */
             text-align: center;
             font-size: 1rem;
             background: white;
             color: #ed9b33; 
             font-weight: bold;
             padding: .2em 0 .2em 0;
+
           }
 
           #overall_engagement th {
             background: #006C5B;
-          /*   border-color: #f4f4f4; */
             width: 20rem;
             height: 2rem;
-          /*   border: 2px solid #f4f4f4; */
             text-align: center;
             font-size: 0.7rem;
             padding: 0rem;
             color: #F8f5f2;
+        }
+
+        
+        #overall_score {
+            display: none;
           }
+
     }
+    
 }
+
+
+.hover {
+    border: solid 3px #f8f5f2;
+}
+
+
+.element1 {
+    border: solid 3px rgba(255, 99, 71, 0);
+}
+
+
+.hover2 {
+    border: solid 3px #f8f5f2;
+}
+
+
+.hover3 {
+    border: solid 3px #f8f5f2;
+}
+
+
+
