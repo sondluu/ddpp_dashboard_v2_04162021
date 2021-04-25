@@ -4184,7 +4184,7 @@ if (c9 == "H") {
 
      "Your patient is currently enrolled in a digital diabetes prevention program. If you would like more information on these programs, please click here: https://www.cdc.gov/diabetes/prevention/index.html",
 
-     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like additional diabetes prevention resources to share with your patients, please click here: ttps://www.cdc.gov/diabetes/prevention/index.html"  // No comma after last entry
+     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like additional diabetes prevention resources to share with your patients, please click here: https://www.cdc.gov/diabetes/prevention/index.html"  // No comma after last entry
  ];
 
  function RndText() {
