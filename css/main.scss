@@ -38,7 +38,6 @@ main {
 
     .main-container {
         display: block;
-        display: block;
         background-color: white;
         margin: 0em .5em 0em .5em;
         padding: em .1em .02em .1em;
@@ -77,7 +76,7 @@ main {
         font-weight: bold;
         padding-top: .5em;
         padding-bottom: 0em;
-     
+        border-radius: .4em white;
 
         p {
             font-size: 0.6rem;
@@ -130,7 +129,7 @@ section.description {
         display: block;
         background-color: #f8f5f2;
         margin: 0em .5em 0em .5em;
-        padding: 0.2em .8em 0 .8em ;
+        padding: 0.2em .65em 0 .8em ;
         border-radius: .4em;
     }
 
@@ -138,7 +137,7 @@ section.description {
         display: block;
         background-color:#f8f5f2;
         margin: .5em;
-        padding: .1em .8em 0.3em .8em;
+        padding: .1em .3em 0.3em .8em;
         border-radius: .4em;
     }
 
@@ -258,7 +257,6 @@ section.engagement {
           #phys td {
             font-size: .5rem;
             text-align: center;
-            // display: none;
           } 
 
           #phys_score {
@@ -268,7 +266,6 @@ section.engagement {
     }
 
     .digital-learning {
-        display: block;
         display: block;
         background: #f8f5f2;
         margin: 0em .5em .4em .5em;
@@ -304,7 +301,6 @@ section.engagement {
         #learn td {
             font-size: .5rem;
             text-align: center;
-            // display: none;
         } 
 
         #learn_score {
@@ -314,7 +310,6 @@ section.engagement {
     }
 
     .weigh-in {
-        display: block;
         display: block;
         background: #f8f5f2;
         margin: 0em .5em .4em .5em;
@@ -350,7 +345,6 @@ section.engagement {
         #weigh td {
             font-size: .5rem;
             text-align: center;
-            // display: none;
         } 
 
         #weighin_score {
@@ -360,7 +354,6 @@ section.engagement {
     }
 
     .communication {
-        display: block;
         display: block;
         background: #f8f5f2;
         margin: 0em .5em 0em .5em;
@@ -396,7 +389,6 @@ section.engagement {
         #comm td {
             font-size: .5rem;
             text-align: center;
-            // display: none;
         } 
 
         #comm_score {
@@ -479,7 +471,7 @@ header {
 
     .guide {
         display: block;
-        background-color:#1E3932;
+        background-color:#E26751; //1E3932 green
         // border: solid 4px #f8f5f2;
         margin: 1em 2em 1em .3em;
         padding: 0em 1.5em 0em 1.5em;
@@ -515,12 +507,11 @@ header {
         display: block;
         background-color: white;
         margin: .3em .5em 0em .5em;
-        padding: 0em .5em .7em .5em;
+        padding: 0em .3em .7em .5em;
         border-radius: .4em;
         border-color: none;
 
         .results-info {
-            display: block;
             display: block;
             background: #f8f5f2;
             margin: 0em .5em 0em .5em;
@@ -534,7 +525,7 @@ header {
         h2 {
             color: #006C5B;
             font-size: 1rem;
-            padding: .5em 0.5em 0 0.5em;
+            padding: 0.5em 0.3em 0 0.5em;
             margin-top: 0.2em;
         }
 
@@ -600,7 +591,7 @@ header {
             font-size: .5rem;
 
             li {
-                padding: 0.5em 1em .5em 0;
+                padding: 0.5em 0.5em 0.5em 0;
                 font-size: 1.2em;
             }
         }
@@ -686,7 +677,7 @@ header {
 
 
 .element1 {
-    border: solid 3px rgba(255, 99, 71, 0);
+    border: solid 3px rgba(255, 255, 255, 0);
 }
 
 

@@ -455,7 +455,7 @@ function redDotP21() {
 
   
 if (p22 == "H") {
-  greenDotP222();
+  greenDotP22();
 } else if (p22 == "L") {
   redDotP22();
 }
@@ -1570,7 +1570,7 @@ function greenDotL26() {
 
 function redDotL26() {
   let x26 = document.getElementById("learn").rows[2].cells;
-  x26s[26].innerHTML = "🔴";
+  x26[26].innerHTML = "🔴";
 }
 
 
@@ -1753,7 +1753,7 @@ function greenDotL36() {
 
 function redDotL36() {
   let x36 = document.getElementById("learn").rows[2].cells;
-  x34[36].innerHTML = "🔴";
+  x36[36].innerHTML = "🔴";
 }
 
 
@@ -3426,7 +3426,7 @@ if (c9 == "H") {
   
   function redDotC17() {
     let x17 = document.getElementById("comm").rows[2].cells;
-    x14[17].innerHTML = "🔴";
+    x17[17].innerHTML = "🔴";
   }
 
 
@@ -4174,17 +4174,18 @@ if (c9 == "H") {
 
 
   var textarray = [
-    "Consider using the information in this dashboard to have a targeted conversation with your patient about diabetes prevention.",
 
-     "Consider using the information in this dashboard to have a targeted conversation with your patient about healthy eating, exercise, or weight loss, based on their performance in the Noom app.",
+     "Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.",
+     
+     "Consider using the information in this dashboard to have a targeted conversation with your patient about diabetes prevention.",
 
      "This dashboard can help you target areas for conversation, education, and support for your patients who are at risk for diabetes.",
 
-     "Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.",
+     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like more information on these programs, please check out website: https://www.cdc.gov/diabetes/prevention/index.html",
 
-     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like more information on these programs, please click here: https://www.cdc.gov/diabetes/prevention/index.html",
+     "Consider using the information in this dashboard to have a targeted conversation with your patient about healthy eating, exercise, or weight loss, based on their performance in the Noom app.",
 
-     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like additional diabetes prevention resources to share with your patients, please click here: https://www.cdc.gov/diabetes/prevention/index.html"  // No comma after last entry
+     "Your patient is currently enrolled in a digital diabetes prevention program. If you would like additional diabetes prevention resources to share with your patients, please check out website: https://www.cdc.gov/diabetes/prevention/index.html"  // No comma after last entry
  ];
 
  function RndText() {
@@ -4194,7 +4195,7 @@ if (c9 == "H") {
  
  onload = function() { RndText(); }
 
- var inter = setInterval(function() { RndText(); }, 7000);
+ var inter = setInterval(function() { RndText(); }, 5000);
 
 
 
@@ -4214,9 +4215,9 @@ if (c9 == "H") {
 
 $(document).ready(function(){
   $(".element1").hover(function(){
-    $(".hover1").css({"border": "solid 3px #F4364C"});
+    $(".hover1").css({"border": "solid 3px #F4364C", "border-radius": .4 + "em"});
     }, function(){
-    $(".hover1").css("border", "solid 3px rgba(255, 99, 71, 0)");
+    $(".hover1").css({"border": "solid 3px rgba(255, 255, 255, 0)", "border-radius": 0 + "em"});
   });
 });
 
