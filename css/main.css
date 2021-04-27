@@ -5,6 +5,7 @@ body {
   margin: 0;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
+  background-color: #006C5B;
 }
 
 .grid-container {
@@ -17,6 +18,9 @@ body {
       grid-template-areas: "header header header" "description main main" "description engagement results" "description engagement results";
   height: 100vh;
   margin: 0;
+  -ms-grid-columns: minmax(auto, max-content);
+      grid-template-columns: minmax(auto, -webkit-max-content);
+      grid-template-columns: minmax(auto, max-content);
 }
 
 .background {
@@ -96,12 +100,14 @@ main .main-container #daily_cal {
 main .main-container #daily_cal th {
   height: .5em;
   font-size: .7rem;
+  width: 3em;
 }
 
 main .main-container #daily_cal td {
   height: .5em;
   font-size: .7rem;
   padding: .5em;
+  width: 7em;
 }
 
 section.description {
@@ -110,6 +116,7 @@ section.description {
   -ms-grid-column: 1;
   grid-area: description;
   background-color: #006C5B;
+  width: 19.5vw;
 }
 
 section.description .dashboard-overview {
@@ -405,7 +412,7 @@ header .general-info {
           justify-content: space-between;
   height: auto;
   padding-top: 2em;
-  padding-left: 4em;
+  padding-left: 5em;
 }
 
 header .general-info ul {

@@ -224,9 +224,9 @@ function greenDotP9() {
   x9[9].innerHTML = "🟢";
 }
 
-function redDotP8() {
-  let x8 = document.getElementById("phys").rows[2].cells;
-  x8[8].innerHTML = "🔴";
+function redDotP9() {
+  let x9 = document.getElementById("phys").rows[2].cells;
+  x9[9].innerHTML = "🔴";
 }
 
 
@@ -1124,7 +1124,7 @@ if (l2 == "H") {
   }
   
   function redDotL2() {
-    let x2 = document.getElementById("learning").rows[2].cells;
+    let x2 = document.getElementById("learn").rows[2].cells;
     x2[2].innerHTML = "🔴";
   }
 
@@ -1178,7 +1178,7 @@ function greenDotL5() {
 }
 
 function redDotL5() {
-  let x5 = document.getElementById("learning").rows[2].cells;
+  let x5 = document.getElementById("learn").rows[2].cells;
   x5[5].innerHTML = "🔴";
 }
 
@@ -2529,22 +2529,6 @@ function redDotW22() {
 
 
 
-if (w23 == "H") {
-  greenDotW22();
-} else if (w22 == "L") {
-  redDotW22();
-}
-
-function greenDotW22() {
-  let x22 = document.getElementById("weigh").rows[1].cells;
-  x22[22].innerHTML = "🟢";
-}
-
-function redDotW22() {
-  let x22 = document.getElementById("weigh").rows[2].cells;
-  x22[22].innerHTML = "🔴";
-}
-
 
 
 if (w23 == "H") {
@@ -2923,6 +2907,26 @@ function greenDotW43() {
 function redDotW43() {
   let x43 = document.getElementById("weigh").rows[2].cells;
   x43[43].innerHTML = "🔴";
+}
+
+
+
+
+
+if (w44 == "H") {
+  greenDotW44();
+} else if (w44 == "L") {
+  redDotW44();
+}
+
+function greenDotW44() {
+  let x44 = document.getElementById("weigh").rows[1].cells;
+  x44[44].innerHTML = "🟢";
+}
+
+function redDotW44() {
+  let x44 = document.getElementById("weigh").rows[2].cells;
+  x44[44].innerHTML = "🔴";
 }
 
 
@@ -4176,7 +4180,7 @@ if (c9 == "H") {
   var textarray = [
 
      "Your patient is currently using a digital diabetes prevention app to help them make healthy lifestyle changes. Consider discussing their experience with the program, and finding areas to provide additional education or support.",
-     
+
      "Consider using the information in this dashboard to have a targeted conversation with your patient about diabetes prevention.",
 
      "This dashboard can help you target areas for conversation, education, and support for your patients who are at risk for diabetes.",
