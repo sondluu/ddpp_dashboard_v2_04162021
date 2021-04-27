@@ -94,7 +94,7 @@ main {
     #noom_data th {
         background: #006C5B;
       /*   border-color: #f4f4f4; */
-        width: 20rem;
+        width: 20em;
         height: 2rem;
       /*   border: 2px solid #f4f4f4; */
         text-align: center;
@@ -110,14 +110,14 @@ main {
       #daily_cal th{
         height: .5em;
         font-size: .7rem;
-        width: 3em;
+        width: auto;
       }
     
       #daily_cal td {
         height: .5em;
         font-size: .7rem;
         padding: .5em;
-        width: 7em;
+        width: auto;
       }
 }
 }
